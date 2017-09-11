@@ -1,0 +1,58 @@
+Arguments: 
+  /Users/billy/.nvm/versions/node/v8.1.4/bin/node /usr/local/Cellar/yarn/1.0.1/libexec/bin/yarn.js add eslint-config-sentry
+
+PATH: 
+  /Users/billy/Development/git-subrepo/lib:/Users/billy/.nvm/versions/node/v8.1.4/bin:./node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/billy/Development/git-subrepo/lib:./node_modules/.bin:/Users/billy/.venvburrito/bin:/Users/billy/.fzf/bin
+
+Yarn version: 
+  1.0.1
+
+Node version: 
+  8.1.4
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "eslint-config-sentry-react",
+    "version": "1.0.2",
+    "description": "sentry.io eslint config",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/getsentry/eslint-config-sentry.git"
+    },
+    "keywords": [
+      "eslint",
+      "eslint-config",
+      "sentry"
+    ],
+    "author": "Billy Vong <billy@sentry.io>",
+    "license": "BSD-2-Clause",
+    "bugs": {
+      "url": "https://github.com/getsentry/eslint-config-sentry/issues"
+    },
+    "peerDependencies": {
+      "eslint": "2.x - 4.x",
+      "eslint-plugin-react": "6.x - 7.x",
+      "eslint-plugin-import": "2.x"
+    },
+    "homepage": "https://github.com/getsentry/eslint-config-sentry#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/eslint-config-sentry: ETIMEDOUT
+      at Timeout._onTimeout (/usr/local/Cellar/yarn/1.0.1/libexec/lib/cli.js:117988:19)
+      at ontimeout (timers.js:488:11)
+      at tryOnTimeout (timers.js:323:5)
+      at Timer.listOnTimeout (timers.js:283:5)

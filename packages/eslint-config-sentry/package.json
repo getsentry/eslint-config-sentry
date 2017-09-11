@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-sentry",
+  "version": "1.0.2",
+  "description": "sentry.io eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getsentry/eslint-config-sentry.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "sentry"
+  ],
+  "author": "Billy Vong <billy@sentry.io>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/getsentry/eslint-config-sentry/issues"
+  },
+  "peerDependencies": {
+    "eslint": "2.x - 4.x"
+  },
+  "homepage": "https://github.com/getsentry/eslint-config-sentry#readme"
+}
