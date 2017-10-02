@@ -55,7 +55,7 @@ module.exports = {
     'no-debugger': ['warn'],
 
     // http://eslint.org/docs/rules/no-alert
-    'no-alert': ['warn'],
+    'no-alert': ['error'],
 
     // http://eslint.org/docs/rules/no-constant-condition
     'no-constant-condition': ['warn'],
