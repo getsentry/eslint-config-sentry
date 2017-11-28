@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sentry",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "sentry.io eslint config",
   "main": "index.js",
   "scripts": {
