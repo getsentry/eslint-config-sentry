@@ -23,7 +23,7 @@
   "peerDependencies": {
     "eslint": "2.x - 4.x",
     "eslint-plugin-import": "2.x",
-    "eslint-plugin-react": "6.x - 7.x"
+    "eslint-plugin-react": "^7.4.0"
   },
   "homepage": "https://github.com/getsentry/eslint-config-sentry#readme",
   "dependencies": {
