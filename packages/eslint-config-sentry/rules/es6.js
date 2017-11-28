@@ -9,5 +9,5 @@ module.exports = {
 
     // http://eslint.org/docs/rules/prefer-const
     'prefer-const': 0,
-  }
+  },
 };

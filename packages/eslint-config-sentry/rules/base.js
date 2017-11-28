@@ -32,8 +32,8 @@ module.exports = {
       'error',
       {
         vars: 'local',
-        args: 'none'
-      }
+        args: 'none',
+      },
     ],
 
     // http://eslint.org/docs/rules/no-use-before-define
@@ -120,12 +120,12 @@ module.exports = {
     // http://eslint.org/docs/rules/default-case
     'default-case': ['error'],
 
-        // http://eslint.org/docs/rules/dot-notation
+    // http://eslint.org/docs/rules/dot-notation
     'dot-notation': [
       'error',
       {
-        allowKeywords: true
-      }
+        allowKeywords: true,
+      },
     ],
 
     // http://eslint.org/docs/rules/eqeqeq [REVISIT ME]
@@ -223,8 +223,8 @@ module.exports = {
       'error',
       'single',
       {
-        avoidEscape: true
-      }
+        avoidEscape: true,
+      },
     ],
 
     // http://eslint.org/docs/rules/radix
@@ -253,5 +253,5 @@ module.exports = {
 
     // http://eslint.org/docs/rules/yoda
     yoda: ['error'],
-  }
+  },
 };

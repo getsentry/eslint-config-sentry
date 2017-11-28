@@ -3,11 +3,11 @@
  */
 
 module.exports = {
-  'settings': {
-    "react": {
-      "createClass": "createReactClass", // Regex for Component Factory to use, default to "createReactClass"
-      "pragma": "React",  // Pragma to use, default to "React"
-      "version": "15.4.0" // React version, default to the latest React stable release
+  settings: {
+    react: {
+      createClass: 'createReactClass', // Regex for Component Factory to use, default to "createReactClass"
+      pragma: 'React', // Pragma to use, default to "React"
+      version: '15.4.0', // React version, default to the latest React stable release
       //"flowVersion": "0.53" // Flow version
     },
   },
@@ -19,8 +19,8 @@ module.exports = {
     'react/no-multi-comp': [
       'off',
       {
-        ignoreStateless: true
-      }
+        ignoreStateless: true,
+      },
     ],
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md
     'react/jsx-key': ['error'],
@@ -55,7 +55,7 @@ module.exports = {
     // TODO: Upgrade sentry to use callback refs
     'react/no-find-dom-node': ['warn'],
 
-    // Prevent usage of the return value of React.render 
+    // Prevent usage of the return value of React.render
     // deprecation: https://facebook.github.io/react/docs/react-dom.html#render
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-render-return-value.md
     'react/no-render-return-value': ['error'],
@@ -90,7 +90,7 @@ module.exports = {
     // This is now considered legacy, callback refs preferred
     'react/no-string-refs': ['warn'],
 
-    // Prevent invalid characters from appearing in markup 
+    // Prevent invalid characters from appearing in markup
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unescaped-entities.md
     'react/no-unescaped-entities': ['off'],
 
@@ -99,13 +99,13 @@ module.exports = {
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-prop-types.md
     // skipShapeProps because there are cases where it's impossible to detect if a shape's properties are being used
-    'react/no-unused-prop-types': ['warn', { skipShapeProps: true }],
+    'react/no-unused-prop-types': ['warn', {skipShapeProps: true}],
 
     'react/prop-types': [
       'error',
       {
-        ignore: ['className', 'children', 'location', 'params']
-      }
+        ignore: ['style', 'className', 'children', 'location', 'params'],
+      },
     ],
 
     // When writing the render method in a component it is easy to forget to return the JSX content.
@@ -124,6 +124,6 @@ module.exports = {
 
     // Disabled because of prettier
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/wrap-multilines.md
-    'react/jsx-wrap-multilines': ['off']
-  }
+    'react/jsx-wrap-multilines': ['off'],
+  },
 };

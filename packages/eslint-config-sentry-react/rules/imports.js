@@ -77,8 +77,8 @@ module.exports = {
       'always',
       {
         js: 'never',
-        jsx: 'never'
-      }
+        jsx: 'never',
+      },
     ],
 
     // Enforce a convention in module import order
@@ -88,8 +88,8 @@ module.exports = {
       'off',
       {
         groups: [['builtin', 'external', 'internal'], 'parent', 'sibling', 'index'],
-        'newlines-between': 'ignore'
-      }
+        'newlines-between': 'ignore',
+      },
     ],
 
     // Require a newline after the last import/require in a group
@@ -121,8 +121,8 @@ module.exports = {
     'import/no-internal-modules': [
       'off',
       {
-        allow: []
-      }
+        allow: [],
+      },
     ],
 
     // Warn if a module could be mistakenly parsed as a script by a consumer
@@ -155,8 +155,8 @@ module.exports = {
         allowAnonymousClass: false,
         allowAnonymousFunction: false,
         allowLiteral: false,
-        allowObject: false
-      }
-    ]
-  }
+        allowObject: false,
+      },
+    ],
+  },
 };
