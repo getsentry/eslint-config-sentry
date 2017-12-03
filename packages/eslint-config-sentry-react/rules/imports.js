@@ -11,11 +11,11 @@ module.exports = {
 
     // ensure named imports coupled with named exports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/named.md#when-not-to-use-it
-    'import/named': ['off'],
+    'import/named': ['error'],
 
     // ensure default import coupled with default export
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/default.md#when-not-to-use-it
-    'import/default': ['off'],
+    'import/default': ['error'],
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/namespace.md
     'import/namespace': ['off'],
