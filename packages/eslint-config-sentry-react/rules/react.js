@@ -22,6 +22,17 @@ module.exports = {
         ignoreStateless: true,
       },
     ],
+
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md
+    // Ensures that any component or prop methods used to handle events are correctly prefixed.
+    'react/jsx-handler-names': [
+      'warn',
+      {
+        eventHandlerPrefix: 'handle',
+        eventHandlerPropPrefix: 'on',
+      },
+    ],
+
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-key.md
     'react/jsx-key': ['error'],
 
