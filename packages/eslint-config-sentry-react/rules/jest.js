@@ -5,6 +5,6 @@
 module.exports = {
   rules: {
     'jest/no-large-snapshots': ['warn', {maxSize: 2000}],
-    'jest/no-disabled-tests': 'off',
+    'jest/no-disabled-tests': 'warn',
   },
 };
