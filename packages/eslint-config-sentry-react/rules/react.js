@@ -26,7 +26,7 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md
     // Ensures that any component or prop methods used to handle events are correctly prefixed.
     'react/jsx-handler-names': [
-      'warn',
+      'off',
       {
         eventHandlerPrefix: 'handle',
         eventHandlerPropPrefix: 'on',
