@@ -36,6 +36,7 @@ module.exports = {
     /**
      * Custom
      */
+
     // highlights literals in JSX components w/o translation tags
     'getsentry/jsx-needs-il8n': ['off'],
   },
