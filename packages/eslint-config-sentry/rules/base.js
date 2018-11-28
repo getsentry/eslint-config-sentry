@@ -37,7 +37,7 @@ module.exports = {
     ],
 
     // http://eslint.org/docs/rules/no-use-before-define
-    'no-use-before-define': ['error'],
+    'no-use-before-define': ['error', {functions: false}],
 
     /**
      * Possible errors
