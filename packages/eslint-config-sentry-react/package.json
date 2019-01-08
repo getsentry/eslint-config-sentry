@@ -21,7 +21,7 @@
     "url": "https://github.com/getsentry/eslint-config-sentry/issues"
   },
   "peerDependencies": {
-    "eslint": "2.x - 4.x",
+    "eslint": "2.x - 5.x",
     "eslint-plugin-import": "2.x",
     "eslint-plugin-jest": "^21.15.0",
     "eslint-plugin-react": "^7.4.0"
