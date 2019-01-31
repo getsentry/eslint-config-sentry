@@ -8,6 +8,6 @@ module.exports = {
     'no-var': 2,
 
     // http://eslint.org/docs/rules/prefer-const
-    'prefer-const': 0,
+    'prefer-const': 1,
   },
 };
