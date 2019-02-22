@@ -21,7 +21,7 @@
     "url": "https://github.com/getsentry/eslint-config-sentry/issues"
   },
   "peerDependencies": {
-    "eslint": "2.x - 5.x"
+    "eslint": ">=5"
   },
   "homepage": "https://github.com/getsentry/eslint-config-sentry#readme"
 }

@@ -21,13 +21,17 @@
     "url": "https://github.com/getsentry/eslint-config-sentry/issues"
   },
   "peerDependencies": {
-    "eslint": "2.x - 5.x",
+    "eslint": ">=5",
     "eslint-plugin-import": "2.x",
-    "eslint-plugin-jest": "^21.15.0",
-    "eslint-plugin-react": "^7.4.0"
+    "eslint-plugin-jest": "22.3.0",
+    "eslint-plugin-react": "7.12.4"
   },
   "homepage": "https://github.com/getsentry/eslint-config-sentry#readme",
   "dependencies": {
     "eslint-config-sentry": "^1.6.1"
+  },
+  "toolchain": {
+    "node": "8.10.0",
+    "yarn": "1.13.0"
   }
 }
