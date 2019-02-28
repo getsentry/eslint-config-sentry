@@ -9,11 +9,7 @@ module.exports = {
     /**
      * ES6
      */
-    // http://eslint.org/docs/rules/no-var
-    'no-var': ['error'],
-
-    // http://eslint.org/docs/rules/prefer-const
-    'prefer-const': ['off'],
+    // See ./es6.js
 
     /**
      * Variables
