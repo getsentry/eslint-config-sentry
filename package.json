@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "lerna": "3.4.3"
+  },
+  "toolchain": {
+    "node": "8.10.0",
+    "yarn": "1.13.0"
   }
 }
