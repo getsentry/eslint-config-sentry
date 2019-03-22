@@ -1,11 +1,11 @@
 // Default: sentry app
 module.exports = {
   extends: [
-    'sentry-react',
     'prettier',
     'plugin:prettier/recommended',
     'prettier/react',
     'prettier/standard',
+    'sentry-react',
   ],
 
   parser: 'babel-eslint',
