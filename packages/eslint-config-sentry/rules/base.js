@@ -110,8 +110,8 @@ module.exports = {
     // http://eslint.org/docs/rules/consistent-return
     'consistent-return': ['error'],
 
-    // http://eslint.org/docs/rules/curly [REVISIT ME]
-    curly: ['off'],
+    // http://eslint.org/docs/rules/curly
+    curly: ['error', 'all'],
 
     // http://eslint.org/docs/rules/default-case
     'default-case': ['error'],
