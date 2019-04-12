@@ -136,5 +136,8 @@ module.exports = {
     // Disabled because of prettier
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/wrap-multilines.md
     'react/jsx-wrap-multilines': ['off'],
+
+    // Disallow redundant curly braces in attributes arond literal strings.
+    'react/jsx-curly-brace-presence': ['error', { 'props': 'never', 'children': 'ignore' }],
   },
 };
