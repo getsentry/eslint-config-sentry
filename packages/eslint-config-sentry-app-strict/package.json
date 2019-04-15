@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sentry-app-strict",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "description": "sentry.io eslint config for SPA (strict)",
   "main": "index.js",
   "scripts": {
@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/getsentry/eslint-config-sentry#readme",
   "dependencies": {
-    "eslint-config-sentry-app": "^1.8.0"
+    "eslint-config-sentry-app": "^1.9.0"
   }
 }
