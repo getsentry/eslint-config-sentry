@@ -22,7 +22,7 @@
   },
   "peerDependencies": {
     "eslint": ">=5",
-    "prettier": "1.7.4"
+    "prettier": "1.16.4"
   },
   "homepage": "https://github.com/getsentry/eslint-config-sentry#readme",
   "dependencies": {
