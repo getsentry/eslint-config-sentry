@@ -349,17 +349,17 @@ eslint-config-prettier@3.3.0:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-config-sentry-react@^1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-sentry-react/-/eslint-config-sentry-react-1.6.1.tgz#4b31fd80ecfb0d0c0c9c2dee8edd769922eecae6"
-  integrity sha512-npPNVbMXJ8NQE6ekeqDlNPoHK5XMeVbxHQyOBt8l7EbqOew/LNcI72/3bH71FImIcj+ntsc0Rla4odGU51HKhA==
+eslint-config-sentry-react@^1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-sentry-react/-/eslint-config-sentry-react-1.9.0.tgz#18ff6a2ec585f5e70f9a47cc4c81496d11d567e7"
+  integrity sha512-lvdsZTXQPIPi0yvCVWLZLSoBx6dC6muVi0Z8DiCvcOxoFWA2urV9zTlHNckF2fBfw79dufq8q2NVhcMJ7vQiFA==
   dependencies:
-    eslint-config-sentry "^1.6.1"
+    eslint-config-sentry "^1.8.0"
 
-eslint-config-sentry@^1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-sentry/-/eslint-config-sentry-1.6.1.tgz#5228b0a5f0b2a84cc008de72152b778d93d7a711"
-  integrity sha512-Ld179t/4oZUdMSUmzYP3DnQdpLjgEEsuJY2KWJfRtnN2KWmh7Vjii5/KkzI7S5wCLQye3ii3m5ZFC4GL93AsmA==
+eslint-config-sentry@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-sentry/-/eslint-config-sentry-1.8.0.tgz#4cc007c79f78babf68ac8ffccb79eaa105309465"
+  integrity sha512-asBGsapH3+CkYBsVPZfM2i/O0looBt6xM2K79IEsu5C2CY9RUabpgdB5MZTnfOHn4hpEuls7mTJJSpkRp6eAEA==
 
 eslint-import-resolver-node@^0.3.1:
   version "0.3.2"
@@ -871,6 +871,11 @@ pkg-dir@^1.0.0:
   integrity sha1-ektQio1bstYp1EcFb/TpyTFM89Q=
   dependencies:
     find-up "^1.0.0"
+
+prettier@1.16.4:
+  version "1.16.4"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.16.4.tgz#73e37e73e018ad2db9c76742e2647e21790c9717"
+  integrity sha512-ZzWuos7TI5CKUeQAtFd6Zhm2s6EpAD/ZLApIhsF9pRvRtM1RFo61dM/4MSRUA0SuLugA/zgrZD8m0BaY46Og7g==
 
 process-nextick-args@~2.0.0:
   version "2.0.0"
