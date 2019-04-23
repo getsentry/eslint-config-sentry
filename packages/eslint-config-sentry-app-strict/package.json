@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sentry-app-strict",
-  "version": "1.10.0",
+  "version": "1.11.0",
   "description": "sentry.io eslint config for SPA (strict)",
   "main": "index.js",
   "scripts": {
