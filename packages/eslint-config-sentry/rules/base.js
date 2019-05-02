@@ -28,7 +28,18 @@ module.exports = {
       'error',
       {
         vars: 'local',
-        args: 'none',
+
+        // unused positional arguments that occur before the last used argument will not be checked,
+        // but all named arguments and all positional arguments after the last used argument will be checked.
+        args: 'after-used',
+
+        // Ignore vars that start with an underscore
+        // e.g. if you want to omit a property using object spread:
+        //
+        //   const {name: _name, ...props} = this.props;
+        //
+        varsIgnorePattern: '^_',
+        argsIgnorePattern: '^_',
       },
     ],
 
