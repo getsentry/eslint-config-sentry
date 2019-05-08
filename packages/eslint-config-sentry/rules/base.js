@@ -28,7 +28,7 @@ module.exports = {
       'error',
       {
         vars: 'local',
-        args: 'all',
+        args: 'none',
 
         // Ignore vars that start with an underscore
         // e.g. if you want to omit a property using object spread:
