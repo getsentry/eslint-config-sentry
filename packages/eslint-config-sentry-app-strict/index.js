@@ -10,7 +10,7 @@ module.exports = {
     'no-unused-vars': [
       'error',
       {
-        vars: 'local',
+        vars: 'all',
         args: 'all',
 
         // Ignore vars that start with an underscore

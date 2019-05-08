@@ -27,7 +27,7 @@ module.exports = {
     'no-unused-vars': [
       'error',
       {
-        vars: 'local',
+        vars: 'all',
         args: 'none',
 
         // Ignore vars that start with an underscore
