@@ -27,11 +27,8 @@ module.exports = {
     'no-unused-vars': [
       'error',
       {
-        vars: 'local',
-
-        // unused positional arguments that occur before the last used argument will not be checked,
-        // but all named arguments and all positional arguments after the last used argument will be checked.
-        args: 'after-used',
+        vars: 'all',
+        args: 'none',
 
         // Ignore vars that start with an underscore
         // e.g. if you want to omit a property using object spread:
