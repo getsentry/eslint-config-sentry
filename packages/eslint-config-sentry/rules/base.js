@@ -132,8 +132,8 @@ module.exports = {
       },
     ],
 
-    // http://eslint.org/docs/rules/eqeqeq [REVISIT ME]
-    eqeqeq: ['off'],
+    // http://eslint.org/docs/rules/eqeqeq
+    eqeqeq: ['error'],
 
     // http://eslint.org/docs/rules/guard-for-in [REVISIT ME]
     'guard-for-in': ['off'],
