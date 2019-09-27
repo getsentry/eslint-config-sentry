@@ -35,5 +35,7 @@ module.exports = {
     'react/no-string-refs': ['error'],
 
     'jest/no-large-snapshots': ['error', {maxSize: 2000}],
+
+    'sentry/no-styled-shortcut': ['error'],
   },
 };

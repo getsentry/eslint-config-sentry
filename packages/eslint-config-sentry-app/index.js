@@ -26,7 +26,7 @@ module.exports = {
     jquery: true, // hard-loaded into vendor.js
   },
 
-  plugins: ['react', 'import', 'getsentry', 'prettier'],
+  plugins: ['react', 'import', 'getsentry', 'prettier', 'sentry'],
 
   settings: {
     'import/resolver': 'webpack',
