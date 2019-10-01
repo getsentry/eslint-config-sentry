@@ -1,4 +1,6 @@
 {
+  "name": "eslint-config-sentry-monorepo",
+  "private": true,
   "devDependencies": {
     "lerna": "3.16.4"
   },
