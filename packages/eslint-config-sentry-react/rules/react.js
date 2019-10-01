@@ -23,6 +23,9 @@ module.exports = {
       },
     ],
 
+    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-fragments.md
+    'react/jsx-fragments': ['error', 'element'],
+
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-handler-names.md
     // Ensures that any component or prop methods used to handle events are correctly prefixed.
     'react/jsx-handler-names': [
