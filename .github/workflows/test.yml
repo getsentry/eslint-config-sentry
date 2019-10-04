@@ -1,4 +1,4 @@
-name: Node.js Package Test
+name: test
 
 on:
   push:
