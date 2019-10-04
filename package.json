@@ -1,6 +1,9 @@
 {
   "name": "eslint-config-sentry-monorepo",
   "private": true,
+  "scripts": {
+    "test": "yarn lerna run test"
+  },
   "devDependencies": {
     "lerna": "3.16.4"
   },
