@@ -7,8 +7,7 @@ module.exports = {
     react: {
       createClass: 'createReactClass', // Regex for Component Factory to use, default to "createReactClass"
       pragma: 'React', // Pragma to use, default to "React"
-      version: '15.4.0', // React version, default to the latest React stable release
-      //"flowVersion": "0.53" // Flow version
+      version: 'detect', // React version, default to the latest React stable release
     },
   },
   rules: {
