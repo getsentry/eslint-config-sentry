@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sentry-react",
-  "version": "1.18.3",
+  "version": "1.18.4",
   "description": "sentry.io eslint config",
   "main": "index.js",
   "scripts": {
@@ -28,10 +28,11 @@
   },
   "homepage": "https://github.com/getsentry/eslint-config-sentry#readme",
   "dependencies": {
-    "eslint-config-sentry": "^1.18.3"
+    "eslint-config-sentry": "^1.18.4"
   },
   "toolchain": {
     "node": "8.10.0",
     "yarn": "1.13.0"
-  }
+  },
+  "gitHead": "7ea9fe88aead7b4d6e86e5aeea1391a80fbb08d0"
 }
