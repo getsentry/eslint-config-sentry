@@ -3,9 +3,7 @@
   "version": "1.22.0",
   "description": "sentry.io eslint config",
   "main": "index.js",
-  "scripts": {
-    "test": ""
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/getsentry/eslint-config-sentry.git"
