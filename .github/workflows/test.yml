@@ -5,12 +5,13 @@ on:
 
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: npm ci
-      - run: npm test
+      - run: yarn install
+      - run: yarn lerna bootstrap
+      - run: yarn test
