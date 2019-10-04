@@ -10,19 +10,7 @@ on:
     #  - v1.*           # Push events to v1.0, v1.1, and v1.9 tags
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-      - run: yarn install
-      - run: yarn lerna bootstrap
-      - run: yarn test
-
   publish-npm:
-    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
@@ -32,6 +20,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: yarn install
       - run: yarn lerna bootstrap
-      - run: yarn lerna publish
+      - run: yarn test
+      - run: yarn lerna publish from-git --yes
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
