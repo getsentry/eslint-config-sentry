@@ -21,16 +21,10 @@ jobs:
       - run: yarn install --frozen-lockfile
       - run: yarn lerna bootstrap
       - run: yarn test
-      - run: printenv
+      - run: npm whoami --always-auth
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - run: cat /home/runner/work/_temp/.npmrc
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - run: npm whoami
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - run: npm run lerna publish from-git --yes
+      - run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_AUTH_TOKEN }}" > ~/.npmrc
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - run: npx lerna publish from-git --yes
