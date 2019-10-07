@@ -33,10 +33,6 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - run: yarn install --frozen-lockfile
       - run: yarn lerna bootstrap
-      - run: yarn lerna version minor --conventional-commits --yes
-        env:
-          GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
       - run: yarn lerna publish from-git --yes
         env:
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
