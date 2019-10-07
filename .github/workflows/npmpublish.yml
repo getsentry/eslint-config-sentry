@@ -22,7 +22,11 @@ jobs:
       - run: yarn lerna bootstrap
       - run: yarn test
       - run: printenv
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - run: cat /home/runner/work/_temp/.npmrc
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - run: npx lerna publish from-git --yes
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
