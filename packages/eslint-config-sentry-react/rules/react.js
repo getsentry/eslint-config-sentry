@@ -7,8 +7,7 @@ module.exports = {
     react: {
       createClass: 'createReactClass', // Regex for Component Factory to use, default to "createReactClass"
       pragma: 'React', // Pragma to use, default to "React"
-      version: '15.4.0', // React version, default to the latest React stable release
-      //"flowVersion": "0.53" // Flow version
+      version: 'detect', // React version, default to the latest React stable release
     },
   },
   rules: {
@@ -142,7 +141,7 @@ module.exports = {
 
     // Disallow redundant curly braces in attributes arond literal strings.
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-brace-presence.md
-    'react/jsx-curly-brace-presence': ['error', { 'props': 'never', 'children': 'ignore' }],
+    'react/jsx-curly-brace-presence': ['error', {props: 'never', children: 'ignore'}],
 
     // Consistent <Component booleanProp /> (never add ={true})
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
