@@ -21,10 +21,10 @@ jobs:
       - run: yarn install --frozen-lockfile
       - run: yarn lerna bootstrap
       - run: yarn test
-      - run: echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > ~/.npmrc
+      - run: echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > /home/runner/work/eslint-config-sentry/eslint-config-sentry/.npmrc
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - run: cat ~/.npmrc
-      - run: yarn lerna publish from-git --yes
+      - run: yarn lerna publish from-git --yes --registry="//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}"
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
