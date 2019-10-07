@@ -141,7 +141,7 @@ module.exports = {
 
     // Disallow redundant curly braces in attributes arond literal strings.
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-brace-presence.md
-    'react/jsx-curly-brace-presence': ['error', { 'props': 'never', 'children': 'ignore' }],
+    'react/jsx-curly-brace-presence': ['error', {props: 'never', children: 'ignore'}],
 
     // Consistent <Component booleanProp /> (never add ={true})
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
