@@ -24,6 +24,6 @@ jobs:
       - run: echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > /home/runner/work/eslint-config-sentry/eslint-config-sentry/.npmrc
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - run: yarn lerna publish from-git --yes --registry="https://registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}"
+      - run: yarn lerna publish from-git --yes
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
