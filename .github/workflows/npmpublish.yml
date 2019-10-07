@@ -10,7 +10,7 @@ on:
     #  - v1.*           # Push events to v1.0, v1.1, and v1.9 tags
 
 jobs:
-  publish-npm:
+  test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
@@ -21,6 +21,22 @@ jobs:
       - run: yarn install --frozen-lockfile
       - run: yarn lerna bootstrap
       - run: yarn test
+
+  publish-npm:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+          registry-url: https://registry.npmjs.org/
+      - run: yarn install --frozen-lockfile
+      - run: yarn lerna bootstrap
+      - run: yarn lerna version minor --conventional-commits --yes
+        env:
+          GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
       - run: yarn lerna publish from-git --yes
         env:
           NPM_TOKEN: ${{secrets.NPM_TOKEN}}
