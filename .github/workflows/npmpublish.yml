@@ -18,14 +18,15 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - run: yarn install --frozen-lockfile
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
       - run: yarn lerna bootstrap
       - run: yarn test
-      - run: echo "//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}" > /home/runner/work/eslint-config-sentry/eslint-config-sentry/.npmrc
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - run: lerna publish from-git --yes
+      - run: npx lerna publish from-git --yes
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
