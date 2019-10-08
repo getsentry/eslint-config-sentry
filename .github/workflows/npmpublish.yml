@@ -27,6 +27,6 @@ jobs:
       - run: yarn test
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - run: npx --userconfig "/home/runner/work/_temp/.npmrc" lerna publish from-git --yes
+      - run: npx lerna publish from-git --yes
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
