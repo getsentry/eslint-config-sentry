@@ -1,13 +1,9 @@
 name: npm publish
 
 on:
-  release:
-    # Only use the types keyword to narrow down the activity types that will trigger your workflow.
-    types: [published]
   push:
-    # Sequence of patterns matched against refs/tags
-    tags:
-     - v1.*           # Push events to v1.0, v1.1, and v1.9 tags
+    branches:
+      - master
 
 jobs:
   publish-npm:
