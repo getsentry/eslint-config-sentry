@@ -31,6 +31,17 @@ module.exports = {
   settings: {
     'import/resolver': 'webpack',
     'import/extensions': ['.js', '.jsx'],
+    'import/no-restricted-imports': [
+      'error',
+      {
+        paths: [
+          {
+            name: 'enzyme',
+            message: 'Please import from `sentry-test/enzyme` instead. See: ',
+          },
+        ],
+      },
+    ],
   },
 
   rules: {
