@@ -35,6 +35,24 @@ module.exports = {
 
   rules: {
     /**
+     * Restricted imports, e.g. deprecated libraries, etc
+     *
+     * See: https://eslint.org/docs/rules/no-restricted-imports
+     */
+    'no-restricted-imports': [
+      'error',
+      {
+        paths: [
+          {
+            name: 'enzyme',
+            message:
+              'Please import from `sentry-test/enzyme` instead. See: https://github.com/getsentry/frontend-handbook#undefined-theme-properties-in-tests for more information',
+          },
+        ],
+      },
+    ],
+
+    /**
      * Custom
      */
 
