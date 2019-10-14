@@ -31,7 +31,9 @@ module.exports = {
   settings: {
     'import/resolver': 'webpack',
     'import/extensions': ['.js', '.jsx'],
-    'import/no-restricted-imports': [
+
+    // See: https://eslint.org/docs/rules/no-restricted-imports
+    'no-restricted-imports': [
       'error',
       {
         paths: [
