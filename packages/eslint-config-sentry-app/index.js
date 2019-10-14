@@ -31,8 +31,14 @@ module.exports = {
   settings: {
     'import/resolver': 'webpack',
     'import/extensions': ['.js', '.jsx'],
+  },
 
-    // See: https://eslint.org/docs/rules/no-restricted-imports
+  rules: {
+    /**
+     * Restricted imports, e.g. deprecated libraries, etc
+     *
+     * See: https://eslint.org/docs/rules/no-restricted-imports
+     */
     'no-restricted-imports': [
       'error',
       {
@@ -40,14 +46,12 @@ module.exports = {
           {
             name: 'enzyme',
             message:
-              'Please import from `sentry-test/enzyme` instead. See: https://github.com/getsentry/frontend-handbook#undefined-theme-properties-in-tests',
+              'Please import from `sentry-test/enzyme` instead. See: https://github.com/getsentry/frontend-handbook#undefined-theme-properties-in-tests for more information',
           },
         ],
       },
     ],
-  },
 
-  rules: {
     /**
      * Custom
      */
