@@ -39,7 +39,8 @@ module.exports = {
         paths: [
           {
             name: 'enzyme',
-            message: 'Please import from `sentry-test/enzyme` instead. See: ',
+            message:
+              'Please import from `sentry-test/enzyme` instead. See: https://github.com/getsentry/frontend-handbook#undefined-theme-properties-in-tests',
           },
         ],
       },
