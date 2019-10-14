@@ -2,27 +2,11 @@ name: npm publish
 
 on:
   push:
-    # Sequence of patterns matched against refs/heads
     branches:
-      - 'releases/**'  # Push events to branches matching refs/heads/releases/10
-    # Sequence of patterns matched against refs/tags
-    tags:
-      - v1.*           # Push events to v1.0, v1.1, and v1.9 tags
+      - master
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-      - run: yarn install
-      - run: yarn lerna bootstrap
-      - run: yarn test
-
   publish-npm:
-    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
@@ -30,20 +14,9 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-      - run: yarn lerna publish
+      - run: yarn install --frozen-lockfile
+      - run: yarn lerna bootstrap
+      - run: yarn test
+      - run: yarn lerna publish from-git --yes
         env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-
-  publish-gpr:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
-          registry-url: https://npm.pkg.github.com/
-          scope: '@your-github-username'
-      - run: yarn publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
