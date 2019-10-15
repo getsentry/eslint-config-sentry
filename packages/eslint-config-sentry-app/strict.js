@@ -7,9 +7,11 @@ module.exports = {
     'no-console': ['error'],
     'no-debugger': ['error'],
 
+    'no-unused-vars': 'off',
+
     // This only override the `args` rule (which is "none"). There are too many errors and it's difficult to manually
     // fix them all, so we'll have to incrementally update.
-    'no-unused-vars': [
+    '@typescript-eslint/no-unused-vars': [
       'error',
       {
         vars: 'all',
@@ -54,4 +56,14 @@ module.exports = {
       },
     ],
   },
+
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      /**
+       * Override rules for typescript files
+       */
+      rules: {},
+    },
+  ],
 };
