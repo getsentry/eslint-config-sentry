@@ -26,13 +26,16 @@ module.exports = {
     jquery: true, // hard-loaded into vendor.js
   },
 
-  plugins: ['react', 'import', 'getsentry', 'prettier'],
+  plugins: ['react', 'import', 'prettier'],
 
   settings: {
     'import/resolver': 'webpack',
     'import/extensions': ['.js', '.jsx'],
   },
 
+  /**
+   * Rules
+   */
   rules: {
     /**
      * Restricted imports, e.g. deprecated libraries, etc
@@ -51,12 +54,5 @@ module.exports = {
         ],
       },
     ],
-
-    /**
-     * Custom
-     */
-
-    // highlights literals in JSX components w/o translation tags
-    'getsentry/jsx-needs-il8n': ['off'],
   },
 };
