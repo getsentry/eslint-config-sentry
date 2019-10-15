@@ -30,7 +30,7 @@
   "dependencies": {
     "eslint-config-sentry": "^1.21.0"
   },
-  "toolchain": {
+  "volta": {
     "node": "8.10.0",
     "yarn": "1.13.0"
   },
