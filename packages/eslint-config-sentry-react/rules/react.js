@@ -133,7 +133,7 @@ module.exports = {
     'react/self-closing-comp': ['error'],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
-    'react/sort-comp': ['error'],
+    'react/sort-comp': ['warn'],
 
     // Disabled because of prettier
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/wrap-multilines.md
