@@ -8,7 +8,8 @@ module.exports = {
     'sentry-react',
   ],
 
-  parser: 'babel-eslint',
+  parser: '@typescript-eslint/parser',
+
   parserOptions: {
     ecmaVersion: 6,
     sourceType: 'module',
@@ -26,7 +27,7 @@ module.exports = {
     jquery: true, // hard-loaded into vendor.js
   },
 
-  plugins: ['react', 'prettier', 'sentry', 'import'],
+  plugins: ['@typescript-eslint', 'react', 'prettier', 'sentry', 'import'],
 
   settings: {
     'import/resolver': 'webpack',
@@ -84,12 +85,25 @@ module.exports = {
             group: 'internal',
           },
         ],
-        pathGroupsExcludedImportTypes: ['builtin']
+        pathGroupsExcludedImportTypes: ['builtin'],
       },
     ],
 
     'sentry/no-react-hooks': ['error'],
-    
+
     'sentry/no-digits-in-tn': ['error'],
   },
+
+  /**
+   * Override rules for certain files
+   */
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        '@typescript-eslint/no-unused-vars': 'off',
+        'no-unused-vars': 'off',
+      },
+    },
+  ],
 };
