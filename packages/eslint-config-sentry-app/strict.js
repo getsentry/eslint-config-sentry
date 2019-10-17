@@ -1,3 +1,5 @@
+const relaxedRules = require('.');
+
 module.exports = {
   extends: ['sentry-app'],
 
@@ -42,11 +44,7 @@ module.exports = {
       'error',
       {
         paths: [
-          {
-            name: 'enzyme',
-            message:
-              'Please import from `sentry-test/enzyme` instead. See: https://github.com/getsentry/frontend-handbook#undefined-theme-properties-in-tests for more information',
-          },
+          ...relaxedRules.rules['no-restricted-imports'][1].paths,
           {
             name: 'grid-emotion',
             message:
