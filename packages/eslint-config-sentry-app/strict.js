@@ -37,5 +37,23 @@ module.exports = {
     'jest/no-large-snapshots': ['error', {maxSize: 2000}],
 
     'sentry/no-styled-shortcut': ['error'],
+
+    'no-restricted-imports': [
+      'error',
+      {
+        paths: [
+          {
+            name: 'enzyme',
+            message:
+              'Please import from `sentry-test/enzyme` instead. See: https://github.com/getsentry/frontend-handbook#undefined-theme-properties-in-tests for more information',
+          },
+          {
+            name: 'grid-emotion',
+            message:
+              '`grid-emotion` is deprecated and is a blocker for upgrading to emotion@10. Please remove usage of `grid-emotion` unless you are editing a Panel component or a component with breakpoints.',
+          },
+        ],
+      },
+    ],
   },
 };
