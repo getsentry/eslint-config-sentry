@@ -1,3 +1,5 @@
+const relaxedRules = require('.');
+
 module.exports = {
   extends: ['sentry-app'],
 
@@ -37,5 +39,19 @@ module.exports = {
     'jest/no-large-snapshots': ['error', {maxSize: 2000}],
 
     'sentry/no-styled-shortcut': ['error'],
+
+    'no-restricted-imports': [
+      'error',
+      {
+        paths: [
+          ...relaxedRules.rules['no-restricted-imports'][1].paths,
+          {
+            name: 'grid-emotion',
+            message:
+              '`grid-emotion` is deprecated and is a blocker for upgrading to emotion@10. Please remove usage of `grid-emotion` unless you are editing a Panel component or a component with breakpoints.',
+          },
+        ],
+      },
+    ],
   },
 };
