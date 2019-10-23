@@ -48,7 +48,7 @@ module.exports = {
           {
             name: 'grid-emotion',
             message:
-              '`grid-emotion` is deprecated and is a blocker for upgrading to emotion@10. Please remove usage of `grid-emotion` unless you are editing a Panel component or a component with breakpoints.',
+              '`grid-emotion` is deprecated and is a blocker for upgrading to emotion@10. Please remove usage of `grid-emotion` unless you are editing a Panel component or a component with breakpoints. See https://github.com/getsentry/frontend-handbook/blob/master/migration-guides/grid-emotion.md for migration help.',
           },
         ],
       },
