@@ -51,6 +51,12 @@ module.exports = {
             message:
               'Please import from `sentry-test/enzyme` instead. See: https://github.com/getsentry/frontend-handbook#undefined-theme-properties-in-tests for more information',
           },
+
+          {
+            name: 'marked',
+            message:
+              "Please import marked from 'app/utils/marked' so that we can ensure sanitation of marked output.",
+          },
         ],
       },
     ],
