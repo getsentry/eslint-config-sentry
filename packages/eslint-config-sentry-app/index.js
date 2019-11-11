@@ -57,6 +57,12 @@ module.exports = {
             message:
               "Please import marked from 'app/utils/marked' so that we can ensure sanitation of marked output.",
           },
+
+          {
+            name: 'lodash',
+            message:
+              "Please import lodash utilities individually. e.g. `import isEqual from 'lodash/isEqual';`. See https://github.com/getsentry/frontend-handbook#lodash from for information",
+          },
         ],
       },
     ],
