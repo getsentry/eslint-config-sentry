@@ -360,17 +360,17 @@ eslint-config-prettier@6.3.0:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-config-sentry-react@^1.21.0:
-  version "1.21.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-sentry-react/-/eslint-config-sentry-react-1.21.0.tgz#fea2cd57b0339d7a4d3f4179de409f38b31aaf6e"
-  integrity sha512-f6xGBb0XTv/kNmaGNKH01fjtbMBVKAKpiUQtJYtSB46AtAanKDYkfILaBxfo1VyJvrBCarRyWJ21WL+CFH5bkQ==
+eslint-config-sentry-react@^1.28.1:
+  version "1.28.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-sentry-react/-/eslint-config-sentry-react-1.28.1.tgz#7e55086721a26ad29364df94253806226f2a5621"
+  integrity sha512-dfgMPmSmtAKSgq96YgDqXFamRtzfT5yUiJfmELxcecxN5rPjc6HJ5z80PmXv/c5aLprB2XldUiujEzOFNjYGkA==
   dependencies:
-    eslint-config-sentry "^1.21.0"
+    eslint-config-sentry "^1.28.1"
 
-eslint-config-sentry@^1.21.0:
-  version "1.21.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-sentry/-/eslint-config-sentry-1.21.0.tgz#bfd1afc34f1cbf898a93747adcd89ef27f15cf83"
-  integrity sha512-f0+ZN2vpTaQf5o+nrX014vudFus4SXR1Lgog6iiPDnG+nui5VRF6ujRERzkNFBMOIWdSerlpfLts67TuV241pA==
+eslint-config-sentry@^1.28.1:
+  version "1.28.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-sentry/-/eslint-config-sentry-1.28.1.tgz#eea5c099664ff9f4f0db61d1b5e08f4c96c0597e"
+  integrity sha512-afxluzcVWUjpg8q8gRU3nH+nwaVRwHKTVIB+gEhvm1m4NyZxeruHwmuHW2cx3wWoQXVVGNJv+IJLgO8j50BH1w==
 
 eslint-import-resolver-node@^0.3.2:
   version "0.3.2"
@@ -450,10 +450,10 @@ eslint-plugin-react@7.15.1:
     prop-types "^15.7.2"
     resolve "^1.12.0"
 
-eslint-plugin-sentry@^1.14.1:
-  version "1.14.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-sentry/-/eslint-plugin-sentry-1.14.1.tgz#d9e22599acfbc9bb159ee6b0bfefe22e1871f171"
-  integrity sha512-fBcNkYG3Ode6IidqdlQ9S21cKDbi4Sugp0watkRIMzq/Y94BVJo9gl3rf4R7GkZh76bMW5WDhHDffpsmJ+dk4g==
+eslint-plugin-sentry@^1.28.1:
+  version "1.28.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-sentry/-/eslint-plugin-sentry-1.28.1.tgz#944abb31b9850441e6a5333c93a1e95fee0b35cc"
+  integrity sha512-gafjK8YOEG5f8RmxDTVkf4IyC6VljzltDW2lDMT20IMMo0PUTuSaTpLJWioByLmI+UbvskmUrZHFTafMZhLJww==
   dependencies:
     requireindex "~1.1.0"
 
@@ -877,7 +877,7 @@ path-exists@^3.0.0:
   resolved "https://registry.yarnpkg.com/path-exists/-/path-exists-3.0.0.tgz#ce0ebeaa5f78cb18925ea7d810d7b59b010fd515"
   integrity sha1-zg6+ql94yxiSXqfYENe1mwEP1RU=
 
-path-parse@^1.0.6:
+path-parse@^1.0.5, path-parse@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
   integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
