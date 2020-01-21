@@ -38,8 +38,6 @@ module.exports = {
     // Public
     //----------------------------------------------------------------------
 
-    // TODO(matej): we should make sure that React is react
-
     return {
       VariableDeclaration(node) {
         // const {useState, useEffect} = React;
