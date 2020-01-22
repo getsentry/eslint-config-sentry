@@ -40,8 +40,6 @@ module.exports = {
 
     'sentry/no-styled-shortcut': ['error'],
 
-    'sentry/no-react-hooks': ['error'],
-
     'no-restricted-imports': [
       'error',
       {
