@@ -66,5 +66,7 @@ module.exports = {
         ],
       },
     ],
+
+    'sentry/no-react-hooks': ['error'],
   },
 };
