@@ -8,7 +8,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **no-react-hooks:** Moved rule from strict to default configuration ([ec45fe0](https://github.com/getsentry/eslint-config-sentry/commit/ec45fe0))
 * **rule:** Adds rule to disallow React Hooks ([0375789](https://github.com/getsentry/eslint-config-sentry/commit/0375789))
 
 
