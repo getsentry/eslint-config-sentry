@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sentry-app",
-  "version": "1.29.0",
+  "version": "1.30.0",
   "description": "sentry.io eslint config",
   "main": "index.js",
   "scripts": {},
@@ -32,7 +32,7 @@
     "eslint-plugin-jest": "22.17.0",
     "eslint-plugin-prettier": "3.1.1",
     "eslint-plugin-react": "7.15.1",
-    "eslint-plugin-sentry": "^1.29.0"
+    "eslint-plugin-sentry": "^1.30.0"
   },
   "volta": {
     "node": "8.10.0",
