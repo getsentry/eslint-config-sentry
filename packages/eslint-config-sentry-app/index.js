@@ -68,5 +68,7 @@ module.exports = {
     ],
 
     'sentry/no-react-hooks': ['error'],
+    
+    'sentry/no-digits-in-tn': ['error'],
   },
 };
