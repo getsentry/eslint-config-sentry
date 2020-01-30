@@ -27,7 +27,7 @@
     "eslint-config-prettier": "6.3.0",
     "eslint-config-sentry": "^1.28.1",
     "eslint-config-sentry-react": "^1.28.1",
-    "eslint-import-resolver-webpack": "0.11.1",
+    "eslint-import-resolver-webpack": "0.12.1",
     "eslint-plugin-import": "2.18.2",
     "eslint-plugin-jest": "22.17.0",
     "eslint-plugin-prettier": "3.1.1",
@@ -35,8 +35,8 @@
     "eslint-plugin-sentry": "^1.30.0"
   },
   "volta": {
-    "node": "8.10.0",
-    "yarn": "1.13.0"
+    "node": "10.16.3",
+    "yarn": "1.21.1"
   },
   "gitHead": "7ea9fe88aead7b4d6e86e5aeea1391a80fbb08d0"
 }

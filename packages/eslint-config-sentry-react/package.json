@@ -29,8 +29,8 @@
     "eslint-config-sentry": "^1.28.1"
   },
   "volta": {
-    "node": "8.10.0",
-    "yarn": "1.13.0"
+    "node": "10.16.3",
+    "yarn": "1.21.1"
   },
   "gitHead": "7ea9fe88aead7b4d6e86e5aeea1391a80fbb08d0"
 }
