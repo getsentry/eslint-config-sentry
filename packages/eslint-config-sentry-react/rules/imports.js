@@ -56,11 +56,6 @@ module.exports = {
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-nodejs-modules.md
     'import/no-nodejs-modules': ['error'],
 
-    // Stylistic
-    // disallow non-import statements appearing before import statements
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/first.md
-    'import/first': ['error', 'absolute-first'],
-
     // disallow duplicate imports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md
     'import/no-duplicates': ['error'],
@@ -83,12 +78,11 @@ module.exports = {
 
     // Enforce a convention in module import order
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
-    // TODO: enable?
     'import/order': [
-      'off',
+      'error',
       {
-        groups: [['builtin', 'external', 'internal'], 'parent', 'sibling', 'index'],
-        'newlines-between': 'ignore',
+        groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
+        'newlines-between': 'always',
       },
     ],
 
