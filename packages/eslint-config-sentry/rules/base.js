@@ -256,6 +256,9 @@ module.exports = {
     // http://eslint.org/docs/rules/wrap-iife
     'wrap-iife': ['error', 'any'],
 
+    // https://eslint.org/docs/rules/arrow-body-style
+    "arrow-body-style": ["error", "as-needed"],
+
     // http://eslint.org/docs/rules/yoda
     yoda: ['error'],
   },
