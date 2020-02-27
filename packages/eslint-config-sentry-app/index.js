@@ -6,9 +6,6 @@ module.exports = {
     'prettier/react',
     'prettier/standard',
     'sentry-react',
-    'plugin:import/errors',
-    'plugin:import/warnings',
-    'plugin:import/typescript'
   ],
 
   parser: 'babel-eslint',
