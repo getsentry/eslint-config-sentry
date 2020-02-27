@@ -20,7 +20,7 @@
   },
   "peerDependencies": {
     "eslint": ">=5",
-    "eslint-plugin-import": "~2.18.2",
+    "eslint-plugin-import": "~2.20.1",
     "eslint-plugin-jest": "~22.17.0",
     "eslint-plugin-react": "~7.15.1"
   },

@@ -6,6 +6,9 @@ module.exports = {
     'prettier/react',
     'prettier/standard',
     'sentry-react',
+    'plugin:import/errors',
+    'plugin:import/warnings',
+    'plugin:import/typescript'
   ],
 
   parser: 'babel-eslint',
@@ -26,7 +29,7 @@ module.exports = {
     jquery: true, // hard-loaded into vendor.js
   },
 
-  plugins: ['react', 'import', 'prettier', 'sentry'],
+  plugins: ['react', 'prettier', 'sentry', 'import'],
 
   settings: {
     'import/resolver': 'webpack',
