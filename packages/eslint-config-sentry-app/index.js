@@ -67,6 +67,27 @@ module.exports = {
       },
     ],
 
+    // Enforce a convention in module import order
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
+    'import/order': [
+      'error',
+      {
+        groups: ['builtin', 'external', 'internal', ['parent', 'sibling', 'index']],
+        'newlines-between': 'always',
+        pathGroups: [
+          {
+            pattern: '@emotion/styled',
+            group: 'external',
+          },
+          {
+            pattern: 'sentry*/**',
+            group: 'internal',
+          },
+        ],
+        pathGroupsExcludedImportTypes: ['builtin']
+      },
+    ],
+
     'sentry/no-react-hooks': ['error'],
     
     'sentry/no-digits-in-tn': ['error'],
