@@ -83,6 +83,13 @@ module.exports = {
       {
         groups: ['builtin', 'external', 'internal', ['parent', 'sibling', 'index']],
         'newlines-between': 'always',
+        pathGroups: [
+          {
+            pattern: 'sentry*/**',
+            group: 'internal',
+          },
+        ],
+        pathGroupsExcludedImportTypes: ['builtin'],
       },
     ],
 
