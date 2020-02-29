@@ -1,5 +1,3 @@
-const eslintConfigSentryReact = require('eslint-config-sentry-react/rules/imports') 
-
 // Default: sentry app
 const config = {
   extends: [
@@ -69,29 +67,31 @@ const config = {
       },
     ],
 
+    // Enforce a convention in module import order
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
+    'import/order': [
+      'error',
+      {
+        groups: ['builtin', 'external', 'internal', ['parent', 'sibling', 'index']],
+        'newlines-between': 'always',
+        pathGroups: [
+          {
+            pattern: '@emotion/styled',
+            group: 'external',
+          },
+          {
+            pattern: 'sentry*/**',
+            group: 'internal',
+          },
+        ],
+        pathGroupsExcludedImportTypes: ['builtin']
+      },
+    ],
+
     'sentry/no-react-hooks': ['error'],
     
     'sentry/no-digits-in-tn': ['error'],
   },
 };
-
-//reuses the common rule import/order from the package 'eslint-config-sentry-react'
-config.rules['import/order'] = eslintConfigSentryReact.rules['import/order']
-
-// and includes a sentry/getSentry package-specific rule - pathGroups
-config.rules['import/order'][1] = {
-  ...config.rules['import/order'][1],
-  pathGroups: [
-    {
-      pattern: '@emotion/styled',
-      group: 'external',
-    },
-    {
-      pattern: 'sentry*/**',
-      group: 'internal',
-    },
-  ],
-  pathGroupsExcludedImportTypes: ['builtin'],
-}
 
 module.exports = config
