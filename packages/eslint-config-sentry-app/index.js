@@ -1,5 +1,5 @@
 // Default: sentry app
-const config = {
+module.exports = {
   extends: [
     'prettier',
     'plugin:prettier/recommended',
@@ -93,5 +93,3 @@ const config = {
     'sentry/no-digits-in-tn': ['error'],
   },
 };
-
-module.exports = config
