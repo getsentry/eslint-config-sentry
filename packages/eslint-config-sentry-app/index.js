@@ -115,6 +115,7 @@ module.exports = {
        * Override rules for typescript files
        */
       rules: {
+        '@typescript-eslint/no-unused-vars': 'off',
       },
     },
   ],
