@@ -52,6 +52,9 @@ module.exports = {
     'emotion/import-from-emotion': 'error',
     'emotion/styled-import': 'error',
 
+    '@typescript-eslint/no-unused-vars': 'off',
+    'no-unused-vars': 'off',
+
     /**
      * Restricted imports, e.g. deprecated libraries, etc
      *
@@ -114,9 +117,7 @@ module.exports = {
       /**
        * Override rules for typescript files
        */
-      rules: {
-        '@typescript-eslint/no-unused-vars': 'off',
-      },
+      rules: {},
     },
   ],
 };

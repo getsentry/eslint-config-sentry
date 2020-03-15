@@ -25,6 +25,22 @@ module.exports = {
       },
     ],
 
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      {
+        vars: 'all',
+        args: 'all',
+
+        // Ignore vars that start with an underscore
+        // e.g. if you want to omit a property using object spread:
+        //
+        //   const {name: _name, ...props} = this.props;
+        //
+        varsIgnorePattern: '^_',
+        argsIgnorePattern: '^_',
+      },
+    ],
+
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-is-mounted.md
     'react/no-is-mounted': ['error'],
 
@@ -61,25 +77,7 @@ module.exports = {
       /**
        * Override rules for typescript files
        */
-      rules: {
-        '@typescript-eslint/no-unused-vars': [
-          'error',
-          {
-            vars: 'all',
-            args: 'all',
-
-            // Ignore vars that start with an underscore
-            // e.g. if you want to omit a property using object spread:
-            //
-            //   const {name: _name, ...props} = this.props;
-            //
-            varsIgnorePattern: '^_',
-            argsIgnorePattern: '^_',
-          },
-        ],
-
-        'no-unused-vars': 'off',
-      },
+      rules: {},
     },
   ],
 };
