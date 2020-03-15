@@ -1,11 +1,15 @@
 // Default: sentry app
 module.exports = {
   extends: [
+    'sentry-react',
+
+    // This prettier plugins need to be last so they can override plugin rules
+    // See https://github.com/prettier/eslint-config-prettier/blob/master/README.md#installation
+    // for plugin exclusions
     'prettier',
     'plugin:prettier/recommended',
+    'prettier/@typescript-eslint',
     'prettier/react',
-    'prettier/standard',
-    'sentry-react',
   ],
 
   parser: '@typescript-eslint/parser',
@@ -27,7 +31,7 @@ module.exports = {
     jquery: true, // hard-loaded into vendor.js
   },
 
-  plugins: ['@typescript-eslint', 'react', 'prettier', 'sentry', 'import'],
+  plugins: ['@typescript-eslint', 'emotion', 'import', 'prettier', 'react', 'sentry'],
 
   settings: {
     'import/resolver': 'webpack',
@@ -38,6 +42,16 @@ module.exports = {
    * Rules
    */
   rules: {
+    /**
+     * emotion rules for v10
+     *
+     * This probably aren't as necessary anymore, but let's remove when we move to v11
+     */
+    'emotion/jsx-import': 'off',
+    'emotion/no-vanilla': 'error',
+    'emotion/import-from-emotion': 'error',
+    'emotion/styled-import': 'error',
+
     /**
      * Restricted imports, e.g. deprecated libraries, etc
      *
@@ -94,15 +108,13 @@ module.exports = {
     'sentry/no-digits-in-tn': ['error'],
   },
 
-  /**
-   * Override rules for certain files
-   */
   overrides: [
     {
       files: ['*.ts', '*.tsx'],
+      /**
+       * Override rules for typescript files
+       */
       rules: {
-        '@typescript-eslint/no-unused-vars': 'off',
-        'no-unused-vars': 'off',
       },
     },
   ],

@@ -54,4 +54,32 @@ module.exports = {
       },
     ],
   },
+
+  overrides: [
+    {
+      files: ['*.ts', '*.tsx'],
+      /**
+       * Override rules for typescript files
+       */
+      rules: {
+        '@typescript-eslint/no-unused-vars': [
+          'error',
+          {
+            vars: 'all',
+            args: 'all',
+
+            // Ignore vars that start with an underscore
+            // e.g. if you want to omit a property using object spread:
+            //
+            //   const {name: _name, ...props} = this.props;
+            //
+            varsIgnorePattern: '^_',
+            argsIgnorePattern: '^_',
+          },
+        ],
+
+        'no-unused-vars': 'off',
+      },
+    },
+  ],
 };
