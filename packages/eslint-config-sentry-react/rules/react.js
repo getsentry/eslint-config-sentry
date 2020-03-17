@@ -132,6 +132,9 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/self-closing-comp.md
     'react/self-closing-comp': ['error'],
 
+    // This also causes issues with typescript
+    // See: https://github.com/yannickcr/eslint-plugin-react/issues/2066
+    //
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
     'react/sort-comp': ['warn'],
 
