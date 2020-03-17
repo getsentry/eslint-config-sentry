@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.35.0](https://github.com/getsentry/eslint-config-sentry/compare/v1.34.0...v1.35.0) (2020-03-17)
+
+
+### Features
+
+* **sentry-app:** Move typescript eslint parser and plugin into app config ([4a8374e](https://github.com/getsentry/eslint-config-sentry/commit/4a8374ef6d4da78306ffdcf057808f2b61185736))
+
+
+
+
+
 # [1.34.0](https://github.com/getsentry/eslint-config-sentry/compare/v1.33.0...v1.34.0) (2020-02-28)
 
 **Note:** Version bump only for package eslint-config-sentry-app
