@@ -81,6 +81,11 @@ module.exports = {
             message:
               "Please import lodash utilities individually. e.g. `import isEqual from 'lodash/isEqual';`. See https://github.com/getsentry/frontend-handbook#lodash from for information",
           },
+          {
+            name: 'lodash/get',
+            message:
+              'Optional chaining `?.` and nullish coalescing operators `??` are available and preferred over using `lodash/get`. See https://github.com/getsentry/frontend-handbook#new-syntax for more information',
+          },
         ],
       },
     ],
