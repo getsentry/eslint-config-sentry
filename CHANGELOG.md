@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.36.0](https://github.com/getsentry/eslint-config-sentry/compare/v1.35.0...v1.36.0) (2020-03-27)
+
+
+### Features
+
+* **rule:** Restrict usage of `lodash/get`... ([b72a446](https://github.com/getsentry/eslint-config-sentry/commit/b72a4467ab2bee0abe5567d708a1b064f703eda4))
+
+
+
+
+
 # [1.35.0](https://github.com/getsentry/eslint-config-sentry/compare/v1.34.0...v1.35.0) (2020-03-17)
 
 
