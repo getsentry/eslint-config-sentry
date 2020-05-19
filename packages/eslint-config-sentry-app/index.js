@@ -105,6 +105,17 @@ module.exports = {
           {
             pattern: 'sentry*/**',
             group: 'internal',
+            position: 'before',
+          },
+          {
+            pattern: 'getsentry*/**',
+            group: 'internal',
+            position: 'after',
+          },
+          {
+            pattern: 'admin*/**',
+            group: 'internal',
+            position: 'after',
           },
         ],
         pathGroupsExcludedImportTypes: ['builtin'],
