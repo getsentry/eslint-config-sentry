@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.37.0](https://github.com/getsentry/eslint-config-sentry/compare/v1.36.0...v1.37.0) (2020-05-19)
+
+
+### Features
+
+* **rule:** Group `sentry`, `getsentry`, and `admin` separately ([9027667](https://github.com/getsentry/eslint-config-sentry/commit/9027667d250ba3f448df942097591dcc829647c8))
+
+
+
+
+
 # [1.36.0](https://github.com/getsentry/eslint-config-sentry/compare/v1.35.0...v1.36.0) (2020-03-27)
 
 
