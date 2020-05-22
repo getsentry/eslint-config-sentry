@@ -11,11 +11,16 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-      - run: yarn install --frozen-lockfile
-      - run: yarn lerna bootstrap
+      - run: |
+        git status
+        yarn install --frozen-lockfile
+      - run: |
+        git status
+        yarn lerna bootstrap
       - run: yarn test
       - name: Publish
         run: |
+          git status
           git config user.name "GitHub Actions"
           git config user.email "<>"
           yarn lerna publish minor
