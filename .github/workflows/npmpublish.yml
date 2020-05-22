@@ -19,6 +19,8 @@ jobs:
         run: |
           git status
           yarn lerna bootstrap
+          git status
+          git diff
       - run: yarn test
       - name: Publish
         run: |
