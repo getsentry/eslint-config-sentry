@@ -11,10 +11,12 @@ jobs:
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-      - run: |
+      - name: Install Depdendencies
+        run: |
         git status
         yarn install --frozen-lockfile
-      - run: |
+      - name: Bootstrap lerna
+        run: |
         git status
         yarn lerna bootstrap
       - run: yarn test
