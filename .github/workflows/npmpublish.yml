@@ -13,20 +13,14 @@ jobs:
           registry-url: https://registry.npmjs.org/
       - name: Install Depdendencies
         run: |
-          git status
           yarn install --frozen-lockfile
       - name: Bootstrap lerna
         run: |
-          git status
           yarn lerna bootstrap
-          git status
-          git diff
       - run: yarn test
       - name: Publish
         run: |
           git status
-          git config user.name "GitHub Actions"
-          git config user.email "<>"
           yarn lerna publish minor
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
