@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sentry-react",
-  "version": "1.38.3-alpha.1",
+  "version": "1.38.3-alpha.2",
   "description": "sentry.io eslint config",
   "main": "index.js",
   "scripts": {},
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/getsentry/eslint-config-sentry#readme",
   "dependencies": {
-    "eslint-config-sentry": "^1.38.3-alpha.1"
+    "eslint-config-sentry": "^1.38.3-alpha.2"
   },
   "volta": {
     "node": "10.16.3",
