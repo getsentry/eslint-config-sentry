@@ -22,7 +22,6 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "<>"
-          git fetch --tags
           # yarn lerna publish minor
           yarn lerna publish prerelease -y --force-publish=* --no-push --no-git-tag-version --dist-tag alpha
         env:
