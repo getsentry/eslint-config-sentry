@@ -10,9 +10,9 @@
     },
     "publish": {
       "message": "chore(release): Publish %s",
-       "conventionalCommits": true,
-       "yes": true
+      "conventionalCommits": true,
+      "yes": true
     }
   },
-  "version": "1.38.0"
+  "version": "1.38.1"
 }
