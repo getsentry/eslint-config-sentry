@@ -7,6 +7,10 @@
   "command": {
     "version": {
       "message": "chore(release): Publish %s"
+    },
+    "publish": {
+      "message": "chore(release): Publish %s",
+      "yes": true
     }
   },
   "version": "1.37.0"
