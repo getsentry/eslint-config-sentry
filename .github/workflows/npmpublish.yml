@@ -20,7 +20,9 @@ jobs:
       - run: yarn test
       - name: Publish
         run: |
-          git status
-          yarn lerna publish minor
+          git config user.name "GitHub Actions"
+          git config user.email "<>"
+          # yarn lerna publish minor
+          yarn lerna publish -y --canary --preid ci --npm-tag=ci --force-publish=*
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
