@@ -24,8 +24,9 @@ jobs:
           git config user.email "<>"
           # yarn lerna publish minor
           git remote -v
-          git remote add github "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
+          # git remote add github "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
           git remote -v
           yarn lerna publish prerelease -y --force-publish=* --dist-tag alpha
+          # yarn lerna publish mintor -y --force-publish=*
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
