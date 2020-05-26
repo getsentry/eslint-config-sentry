@@ -9,14 +9,25 @@ jobs:
   publish-npm:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
         with:
           node-version: 12
           registry-url: https://registry.npmjs.org/
-      - run: yarn install --frozen-lockfile
-      - run: yarn lerna bootstrap
-      - run: yarn test
-      - run: yarn lerna publish from-package --yes
+      - name: Install Depdendencies
+        run: |
+          yarn install --frozen-lockfile
+      - name: Bootstrap lerna
+        run: |
+          yarn lerna bootstrap
+      - name: Run Tests
+        run: |
+          yarn test
+      - name: Publish
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "<>"
+          # yarn lerna publish prerelease -y --force-publish=* --dist-tag alpha
+          yarn lerna publish minor -y --force-publish=* --conventional-commits
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

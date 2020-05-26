@@ -449,17 +449,17 @@ eslint-config-prettier@6.3.0:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-config-sentry-react@^1.35.0:
-  version "1.35.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-sentry-react/-/eslint-config-sentry-react-1.35.0.tgz#0ec43c1b39204d3351695d2727fdbfcf989633e9"
-  integrity sha512-82n/KHoh/oX+808eXVoru+aDFR9pLcOmkimXm0amCNkPNi/Q5Bx8yqRcO0FajrGQ1n2LlFy7oOMEPfhm7uimMA==
+eslint-config-sentry-react@^1.38.3-alpha.2:
+  version "1.38.3-alpha.2"
+  resolved "https://registry.yarnpkg.com/eslint-config-sentry-react/-/eslint-config-sentry-react-1.38.3-alpha.2.tgz#9cf8a29d68e9af3c24622f05c7aea6c3e96efb1a"
+  integrity sha512-kFV5ur2WCZczrjzlAq8dewFp8RqKIol+lLdTGtxnWmSwP+BsV/xjlVjOFERb8kJMSdyZ+aYDvp8PyaqI7XZnbw==
   dependencies:
-    eslint-config-sentry "^1.34.0"
+    eslint-config-sentry "^1.38.3-alpha.2"
 
-eslint-config-sentry@^1.34.0:
-  version "1.34.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-sentry/-/eslint-config-sentry-1.34.0.tgz#6c0e8916aa9a0914385f537ff06ffa93f2643ca6"
-  integrity sha512-hioksXUrCurZ/D4J8QGGGuVZlthnj04EUpZlLjyl0SLojNvMDxUxJB2cvgPsEk7iOn9hU8tNnkepYthR0qyY3Q==
+eslint-config-sentry@^1.38.3-alpha.2:
+  version "1.38.3-alpha.2"
+  resolved "https://registry.yarnpkg.com/eslint-config-sentry/-/eslint-config-sentry-1.38.3-alpha.2.tgz#5dd96d543e9bdeb0af3af966ec649755d99d197c"
+  integrity sha512-fnjPvy3FtDhXr9oSWjlW8rMtC6+1Pz/UxUNfAjZKbkdKPcMIE8MJPFx9ylujTqGLN4Si2gf8ECZzlVEVK7sDUg==
 
 eslint-import-resolver-node@^0.3.2:
   version "0.3.2"
@@ -545,10 +545,10 @@ eslint-plugin-react@7.15.1:
     prop-types "^15.7.2"
     resolve "^1.12.0"
 
-eslint-plugin-sentry@^1.35.0:
-  version "1.35.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-sentry/-/eslint-plugin-sentry-1.35.0.tgz#ffef605286c07431138984d85c74cff56cb954f4"
-  integrity sha512-GK4eUQW+gntTmU+IVS+sJGCVkrlFuUjALz57RkAvCNHvtU7YEwinZpttjSTxKn+Kae1dW9vrs0gllMiHxbfXpQ==
+eslint-plugin-sentry@^1.38.3-alpha.2:
+  version "1.38.3-alpha.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-sentry/-/eslint-plugin-sentry-1.38.3-alpha.2.tgz#cde02f2da6968f46fb02e0c59771f5768f5850d3"
+  integrity sha512-nmTLPwkE7JyzP75hmeVWZ7I/JXsxitrZojQyTwUsY5ujVcwpyffoVQuL1aQv6tSvTAHctBQkn7SvCQeFIizzRg==
   dependencies:
     requireindex "~1.1.0"
 
