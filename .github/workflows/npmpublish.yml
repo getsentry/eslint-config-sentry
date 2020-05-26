@@ -27,7 +27,6 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "<>"
-          # yarn lerna publish prerelease -y --force-publish=* --dist-tag alpha
           yarn lerna publish minor -y --force-publish=* --conventional-commits
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
