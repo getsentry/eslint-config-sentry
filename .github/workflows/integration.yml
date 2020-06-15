@@ -1,0 +1,40 @@
+name: integration
+
+on: pull_request
+
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+
+      - name: Checkout sentry repository
+        uses: actions/checkout@v2
+        with:
+          repository: getsentry/sentry
+          path: sentry
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
+      - name: Setup Dependencies
+        run: yarn install
+
+      - name: Lerna Bootstrap and Link
+        run: |
+          yarn lerna bootstrap
+          yarn lerna exec yarn link
+
+      - name: Install eslint in sentry
+        run: |
+          cd sentry
+          npm install $(cat package.json| jq -r '.devDependencies | with_entries(select(.key|contains("eslint"))) | to_entries | map("\(.key)@\(.value)")| join(" ")')
+          yarn link eslint-config-sentry-app
+
+      - name: Run lint in sentry
+          cd sentry
+          yarn lint
