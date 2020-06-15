@@ -32,8 +32,9 @@ jobs:
       - name: Install sentry dependencies
         run: |
           cd sentry
-          npm install $(cat package.json| jq -r '.devDependencies | with_entries(select(.key|contains("eslint"))) | to_entries | map("\(.key)@\(.value)")| join(" ")')
-          npm install $(cat package.json| jq -r '.dependencies | with_entries(select(.key=="typescript")) | to_entries | map("\(.key)@\(.value)")| join(" ")')
+          yarn install
+          # npm install $(cat package.json| jq -r '.devDependencies | with_entries(select(.key|contains("eslint"))) | to_entries | map("\(.key)@\(.value)")| join(" ")')
+          # npm install $(cat package.json| jq -r '.dependencies | with_entries(select(.key=="typescript")) | to_entries | map("\(.key)@\(.value)")| join(" ")')
           yarn link eslint-config-sentry-app
 
       - name: Run lint in sentry
