@@ -4,7 +4,7 @@ on: pull_request
 
 
 jobs:
-  test:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -36,5 +36,6 @@ jobs:
           yarn link eslint-config-sentry-app
 
       - name: Run lint in sentry
+        run: |
           cd sentry
           yarn lint
