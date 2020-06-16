@@ -1,0 +1,41 @@
+name: integration
+
+on: pull_request
+
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+
+      - name: Checkout sentry repository
+        uses: actions/checkout@v2
+        with:
+          repository: getsentry/sentry
+          path: sentry
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+
+      - name: Setup Dependencies
+        run: yarn install
+
+      - name: Lerna Bootstrap and Link
+        run: |
+          yarn lerna bootstrap
+          yarn lerna exec yarn link
+
+      - name: Install sentry dependencies
+        run: |
+          cd sentry
+          yarn install
+          yarn link eslint-config-sentry-app
+
+      - name: Run lint in sentry
+        run: |
+          cd sentry
+          yarn lint --config .eslintrc.relax.js
