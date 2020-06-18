@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.41.0 (2020-06-18)
+
+**Note:** Version bump only for package eslint-config-sentry-app
+
+
+
+
+
 # 1.40.0 (2020-06-16)
 
 **Note:** Version bump only for package eslint-config-sentry-app
