@@ -7,26 +7,6 @@ module.exports = {
     'no-console': ['error'],
     'no-debugger': ['error'],
 
-    'no-unused-vars': 'off',
-
-    // This only override the `args` rule (which is "none"). There are too many errors and it's difficult to manually
-    // fix them all, so we'll have to incrementally update.
-    '@typescript-eslint/no-unused-vars': [
-      'error',
-      {
-        vars: 'all',
-        args: 'all',
-
-        // Ignore vars that start with an underscore
-        // e.g. if you want to omit a property using object spread:
-        //
-        //   const {name: _name, ...props} = this.props;
-        //
-        varsIgnorePattern: '^_',
-        argsIgnorePattern: '^_',
-      },
-    ],
-
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-is-mounted.md
     'react/no-is-mounted': ['error'],
 
