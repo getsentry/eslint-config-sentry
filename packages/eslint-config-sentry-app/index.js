@@ -150,7 +150,6 @@ module.exports = {
        * Override rules for typescript files
        */
       rules: {},
-      extends: ['sentry-typescript'],
     },
   ],
 };

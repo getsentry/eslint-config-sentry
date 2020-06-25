@@ -449,17 +449,17 @@ eslint-config-prettier@6.3.0:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-config-sentry-react@^1.35.0:
-  version "1.35.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-sentry-react/-/eslint-config-sentry-react-1.35.0.tgz#0ec43c1b39204d3351695d2727fdbfcf989633e9"
-  integrity sha512-82n/KHoh/oX+808eXVoru+aDFR9pLcOmkimXm0amCNkPNi/Q5Bx8yqRcO0FajrGQ1n2LlFy7oOMEPfhm7uimMA==
+eslint-config-sentry-react@^1.41.0:
+  version "1.41.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-sentry-react/-/eslint-config-sentry-react-1.41.0.tgz#481438c921a4f86399fc0756f6219009a0124c3b"
+  integrity sha512-StW0hOL/E9UawXDVhidPqCMsd4J7IIuHk3kBwR/dxHKxKmNiMXOgIhRapL0bGWG/1TweGJgW/Flp8YnGnRhp3g==
   dependencies:
-    eslint-config-sentry "^1.34.0"
+    eslint-config-sentry "^1.41.0"
 
-eslint-config-sentry@^1.34.0:
-  version "1.34.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-sentry/-/eslint-config-sentry-1.34.0.tgz#6c0e8916aa9a0914385f537ff06ffa93f2643ca6"
-  integrity sha512-hioksXUrCurZ/D4J8QGGGuVZlthnj04EUpZlLjyl0SLojNvMDxUxJB2cvgPsEk7iOn9hU8tNnkepYthR0qyY3Q==
+eslint-config-sentry@^1.41.0:
+  version "1.41.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-sentry/-/eslint-config-sentry-1.41.0.tgz#46c6967ce73bc85674a9f6044d8268253139f3c7"
+  integrity sha512-xwFUmMSXzSz9+xIdN03kZwanEspVhvSQZiFyXz8sv5xrawwwPUukvjOKqnZ6gZKMX4QuUb/Y8rqowljIdRbm+w==
 
 eslint-import-resolver-node@^0.3.2:
   version "0.3.2"
@@ -545,10 +545,10 @@ eslint-plugin-react@7.15.1:
     prop-types "^15.7.2"
     resolve "^1.12.0"
 
-eslint-plugin-sentry@^1.35.0:
-  version "1.35.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-sentry/-/eslint-plugin-sentry-1.35.0.tgz#ffef605286c07431138984d85c74cff56cb954f4"
-  integrity sha512-GK4eUQW+gntTmU+IVS+sJGCVkrlFuUjALz57RkAvCNHvtU7YEwinZpttjSTxKn+Kae1dW9vrs0gllMiHxbfXpQ==
+eslint-plugin-sentry@^1.41.0:
+  version "1.41.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-sentry/-/eslint-plugin-sentry-1.41.0.tgz#e1864423284116b2c036b7cbc3e6e184be72c361"
+  integrity sha512-wBbPGf4GPSnDewm7wa78pSLJp2rBmtC/qnR7fPoYcJzmYCvrUqzonP0uFBjHu8bMwu8hLl6OpFrE+DiPNeTTzw==
   dependencies:
     requireindex "~1.1.0"
 
