@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-sentry-typescript",
+  "version": "1.38.2",
+  "description": "sentry.io typescript eslint",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getsentry/eslint-config-sentry.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "sentry"
+  ],
+  "author": "Billy Vong <billy@sentry.io>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/getsentry/eslint-config-sentry/issues"
+  },
+  "peerDependencies": {
+    "eslint": ">=5",
+    "prettier": "1.19.1"
+  },
+  "homepage": "https://github.com/getsentry/eslint-config-sentry#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0"
+  },
+  "volta": {
+    "node": "10.16.3",
+    "yarn": "1.21.1"
+  },
+  "gitHead": "d5134c426450b2a297686c9c8a139bba61ba1153"
+}
