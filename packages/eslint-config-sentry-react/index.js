@@ -2,10 +2,10 @@
 module.exports = {
   extends: [
     'sentry',
-    'sentry-react/rules/react',
-    'sentry-react/rules/imports',
+    './rules/react',
+    './rules/imports',
     'plugin:jest/recommended',
-    'sentry-react/rules/jest',
+    './rules/jest',
   ],
 
   rules: {

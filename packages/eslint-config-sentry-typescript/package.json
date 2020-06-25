@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-sentry-app",
-  "version": "1.41.0",
-  "description": "sentry.io eslint config",
+  "name": "eslint-config-sentry-typescript",
+  "version": "1.38.3",
+  "description": "sentry.io typescript eslint",
   "main": "index.js",
   "scripts": {},
   "repository": {
@@ -24,24 +24,16 @@
   },
   "homepage": "https://github.com/getsentry/eslint-config-sentry#readme",
   "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.4.0",
+    "@typescript-eslint/parser": "^3.4.0",
     "eslint-config-prettier": "6.3.0",
     "eslint-config-sentry": "^1.41.0",
-    "eslint-config-sentry-react": "^1.41.0",
-    "eslint-config-sentry-typescript": "^1.38.2",
-    "eslint-import-resolver-webpack": "0.12.1",
-    "eslint-plugin-emotion": "^10.0.27",
-    "eslint-plugin-import": "2.20.1",
-    "eslint-plugin-jest": "22.17.0",
     "eslint-plugin-prettier": "3.1.1",
-    "eslint-plugin-react": "7.15.1",
-    "eslint-plugin-sentry": "^1.41.0"
+    "typescript": "3.8"
   },
   "volta": {
     "node": "10.16.3",
     "yarn": "1.21.1"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "gitHead": "d5134c426450b2a297686c9c8a139bba61ba1153"
 }
