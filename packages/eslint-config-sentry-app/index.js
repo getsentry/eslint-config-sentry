@@ -8,7 +8,6 @@ module.exports = {
     // for plugin exclusions
     'prettier',
     'plugin:prettier/recommended',
-    'prettier/@typescript-eslint',
     'prettier/react',
   ],
 
@@ -151,6 +150,7 @@ module.exports = {
        * Override rules for typescript files
        */
       rules: {},
+      extends: ['sentry-typescript'],
     },
   ],
 };
