@@ -2,6 +2,7 @@
 module.exports = {
   extends: [
     'sentry-react',
+    'sentry-typescript',
 
     // These prettier plugins need to be last so they can override plugin rules
     // See https://github.com/prettier/eslint-config-prettier/blob/master/README.md#installation

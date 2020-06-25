@@ -29,6 +29,7 @@
     "eslint-config-prettier": "6.3.0",
     "eslint-config-sentry": "^1.41.0",
     "eslint-config-sentry-react": "^1.41.0",
+    "eslint-config-sentry-typescript": "^1.38.2",
     "eslint-import-resolver-webpack": "0.12.1",
     "eslint-plugin-emotion": "^10.0.27",
     "eslint-plugin-import": "2.20.1",
