@@ -1,7 +1,7 @@
 const relaxedRules = require('.');
 
 module.exports = {
-  extends: ['sentry-app'],
+  extends: ['./index'],
 
   rules: {
     'no-console': ['error'],

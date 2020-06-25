@@ -1,4 +1,3 @@
-// Default: sentry app
 module.exports = {
   extends: [
     'sentry',

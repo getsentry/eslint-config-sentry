@@ -2,14 +2,12 @@
 module.exports = {
   extends: [
     'sentry-react',
-    'sentry-typescript',
 
     // These prettier plugins need to be last so they can override plugin rules
     // See https://github.com/prettier/eslint-config-prettier/blob/master/README.md#installation
     // for plugin exclusions
     'prettier',
     'plugin:prettier/recommended',
-    'prettier/@typescript-eslint',
     'prettier/react',
   ],
 
@@ -50,7 +48,6 @@ module.exports = {
     'emotion/no-vanilla': 'error',
     'emotion/import-from-emotion': 'error',
     'emotion/styled-import': 'error',
-
 
     /**
      * Restricted imports, e.g. deprecated libraries, etc
@@ -131,6 +128,7 @@ module.exports = {
        * Override rules for typescript files
        */
       rules: {},
+      extends: ['sentry-typescript'],
     },
   ],
 };
