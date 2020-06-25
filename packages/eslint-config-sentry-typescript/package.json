@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sentry-typescript",
-  "version": "1.38.2",
+  "version": "1.38.3",
   "description": "sentry.io typescript eslint",
   "main": "index.js",
   "scripts": {},
