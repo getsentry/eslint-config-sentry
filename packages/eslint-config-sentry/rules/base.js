@@ -145,8 +145,8 @@ module.exports = {
     // http://eslint.org/docs/rules/no-caller
     'no-caller': ['error'],
 
-    // http://eslint.org/docs/rules/no-else-return [REVISIT ME]
-    'no-else-return': ['off'],
+    // http://eslint.org/docs/rules/no-else-return
+    'no-else-return': ['error'],
 
     // http://eslint.org/docs/rules/no-eq-null
     'no-eq-null': ['error'],
