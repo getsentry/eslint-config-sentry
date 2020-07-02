@@ -10,6 +10,7 @@ module.exports = {
     'plugin:prettier/recommended',
     'prettier/@typescript-eslint',
     'prettier/react',
+    'plugin:import/typescript',
   ],
 
   parser: '@typescript-eslint/parser',
@@ -34,7 +35,13 @@ module.exports = {
   plugins: ['@typescript-eslint', 'emotion', 'import', 'prettier', 'react', 'sentry'],
 
   settings: {
-    'import/resolver': 'webpack',
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
+    },
+    'import/resolver': {
+      typescript: {},
+      webpack: {},
+    },
     'import/extensions': ['.js', '.jsx'],
   },
 
