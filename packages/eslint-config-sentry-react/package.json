@@ -8,11 +8,7 @@
     "type": "git",
     "url": "git+https://github.com/getsentry/eslint-config-sentry.git"
   },
-  "keywords": [
-    "eslint",
-    "eslint-config",
-    "sentry"
-  ],
+  "keywords": ["eslint", "eslint-config", "sentry"],
   "author": "Billy Vong <billy@sentry.io>",
   "license": "BSD-2-Clause",
   "bugs": {
@@ -20,7 +16,7 @@
   },
   "peerDependencies": {
     "eslint": ">=5",
-    "eslint-plugin-import": "~2.20.1",
+    "eslint-plugin-import": "~2.22.0",
     "eslint-plugin-jest": "~22.17.0",
     "eslint-plugin-react": "~7.15.1"
   },

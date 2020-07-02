@@ -24,16 +24,13 @@ jobs:
       - name: Setup Dependencies
         run: yarn install
 
-      - name: Lerna Bootstrap and Link
-        run: |
-          yarn lerna bootstrap
-          yarn lerna exec yarn link
-
+        # We add the package instead of linking here because we need to make
+        # sure all dependencies are synced as well, which link will not do.
       - name: Install sentry dependencies
         run: |
           cd sentry
           yarn install
-          yarn link eslint-config-sentry-app
+          yarn add ../packages/eslint-config-sentry-app
 
       - name: Run lint in sentry
         run: |
