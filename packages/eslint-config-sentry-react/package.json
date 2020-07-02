@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sentry-react",
-  "version": "1.41.0",
+  "version": "1.42.0",
   "description": "sentry.io eslint config",
   "main": "index.js",
   "scripts": {},
@@ -8,7 +8,11 @@
     "type": "git",
     "url": "git+https://github.com/getsentry/eslint-config-sentry.git"
   },
-  "keywords": ["eslint", "eslint-config", "sentry"],
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "sentry"
+  ],
   "author": "Billy Vong <billy@sentry.io>",
   "license": "BSD-2-Clause",
   "bugs": {
@@ -22,7 +26,7 @@
   },
   "homepage": "https://github.com/getsentry/eslint-config-sentry#readme",
   "dependencies": {
-    "eslint-config-sentry": "^1.41.0"
+    "eslint-config-sentry": "^1.42.0"
   },
   "volta": {
     "node": "10.16.3",
