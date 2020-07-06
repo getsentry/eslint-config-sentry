@@ -95,6 +95,12 @@ module.exports = {
           },
 
           {
+            name: '@sentry/browser',
+            message:
+              'Please import from `@sentry/react` to ensure consistency throughout the codebase.',
+          },
+
+          {
             name: 'marked',
             message:
               "Please import marked from 'app/utils/marked' so that we can ensure sanitation of marked output.",
