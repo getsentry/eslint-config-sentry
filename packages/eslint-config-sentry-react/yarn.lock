@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-eslint-config-sentry@^1.40.0:
-  version "1.41.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-sentry/-/eslint-config-sentry-1.41.0.tgz#46c6967ce73bc85674a9f6044d8268253139f3c7"
-  integrity sha512-xwFUmMSXzSz9+xIdN03kZwanEspVhvSQZiFyXz8sv5xrawwwPUukvjOKqnZ6gZKMX4QuUb/Y8rqowljIdRbm+w==
+eslint-config-sentry@^1.43.0:
+  version "1.43.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-sentry/-/eslint-config-sentry-1.43.0.tgz#c751e62773edc5527afd7a05a38708c4a2d244da"
+  integrity sha512-Id9Q1o6XFii9WkNgH1yRUZJeBhV23peG2887fy3aB9klHbNUkiQx1LAZloeeU4sgaGOpCH5HRLBEC8fECG1L5Q==

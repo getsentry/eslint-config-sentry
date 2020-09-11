@@ -30,7 +30,7 @@ jobs:
         run: |
           cd sentry
           yarn install
-          yarn add ../packages/eslint-config-sentry-app
+          yarn add -D ../packages/eslint-config-sentry-app
 
       - name: Run lint in sentry
         run: |
