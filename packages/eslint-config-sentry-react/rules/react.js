@@ -45,7 +45,9 @@ module.exports = {
     'react/jsx-no-duplicate-props': ['error'],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
-    'react/jsx-uses-react': ['error'],
+    // this rule is no longer necessary
+    // https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html#eslint
+    'react/jsx-uses-react': ['off'],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-vars.md
     'react/jsx-uses-vars': ['error'],
@@ -127,7 +129,9 @@ module.exports = {
     'react/require-render-return': ['error'],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
-    'react/react-in-jsx-scope': ['error'],
+    // this rule is no longer necessary
+    // https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html#eslint
+    'react/react-in-jsx-scope': ['off'],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/self-closing-comp.md
     'react/self-closing-comp': ['error'],
