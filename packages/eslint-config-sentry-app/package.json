@@ -20,7 +20,7 @@
   },
   "peerDependencies": {
     "eslint": ">=5",
-    "prettier": "1.19.1"
+    "prettier": "1.x || 2.x"
   },
   "homepage": "https://github.com/getsentry/eslint-config-sentry#readme",
   "dependencies": {
