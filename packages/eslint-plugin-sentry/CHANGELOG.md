@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.46.0 (2020-11-21)
+
+**Note:** Version bump only for package eslint-plugin-sentry
+
+
+
+
+
 # 1.45.0 (2020-11-17)
 
 **Note:** Version bump only for package eslint-plugin-sentry
