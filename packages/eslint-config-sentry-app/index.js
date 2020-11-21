@@ -132,10 +132,9 @@ module.exports = {
           // Side effect imports.
           ['^\\u0000'],
 
-          // Node.js builtins. 
-          // For example: ``
+          // Node.js builtins.
           [
-            '^(${require("module").builtinModules.join("|")})(/|$)',
+            `^(${require("module").builtinModules.join("|")})(/|$)`,
           ],
 
           // Packages. `react` related packages come first.
