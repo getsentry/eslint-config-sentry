@@ -32,7 +32,7 @@ module.exports = {
     jquery: true, // hard-loaded into vendor.js
   },
 
-  plugins: ['@typescript-eslint', 'emotion', 'import', 'prettier', 'react', 'sentry'],
+  plugins: ['@typescript-eslint', 'emotion', 'import', 'prettier', 'react', 'sentry', 'simple-import-sort'],
 
   settings: {
     'import/parsers': {
@@ -120,35 +120,44 @@ module.exports = {
       },
     ],
 
-    // Enforce a convention in module import order
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
-    'import/order': [
+    /**
+     * Better import sorting
+     */
+    'sort-imports': 'off',
+    'import/order': 'off',
+    'simple-import-sort/imports': [
       'error',
       {
-        groups: ['builtin', 'external', 'internal', ['parent', 'sibling', 'index']],
-        'newlines-between': 'always',
-        pathGroups: [
-          {
-            pattern: '@emotion/styled',
-            group: 'external',
-          },
-          {
-            pattern: 'sentry*/**',
-            group: 'internal',
-            position: 'before',
-          },
-          {
-            pattern: 'getsentry*/**',
-            group: 'internal',
-            position: 'after',
-          },
-          {
-            pattern: 'admin*/**',
-            group: 'internal',
-            position: 'after',
-          },
+        groups: [
+          // Side effect imports.
+          ['^\\u0000'],
+
+          // Node.js builtins.
+          [
+            `^(${require("module").builtinModules.join("|")})(/|$)`,
+          ],
+
+          // Packages. `react` related packages come first.
+          ['^react', '^@?\\w'],
+
+          // Test should be separate from the app
+          ['^(sentry-test)(/.*|$)'],
+
+          // Internal packages.
+          ['^(app|sentry|sentry-locale)(/.*|$)'],
+
+          // Getsentry packages.
+          ['^(admin|getsentry)(/.*|$)'],
+
+          // Style imports.
+          ['^.+\\.less$'],
+
+          // Parent imports. Put `..` last.
+          ['^\\.\\.(?!/?$)', '^\\.\\./?$'],
+
+          // Other relative imports. Put same-folder imports and `.` last.
+          ['^\\./(?=.*/)(?!/?$)', '^\\.(?!/?$)', '^\\./?$'],
         ],
-        pathGroupsExcludedImportTypes: ['builtin'],
       },
     ],
 
