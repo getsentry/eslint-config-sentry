@@ -497,17 +497,17 @@ eslint-config-prettier@6.3.0:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-config-sentry-react@^1.43.0:
-  version "1.43.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-sentry-react/-/eslint-config-sentry-react-1.43.0.tgz#2b89d727076d89699a7be72adf2c0256bd03021f"
-  integrity sha512-1TiupDlaWqIFt7fbH1NRUz1rlAB04e6CLj0aIdLdrzXo1hbhSQbjrRZI4w5TfmKkGtGlD5qwRTu4F6mmzbt3Bg==
+eslint-config-sentry-react@^1.45.0:
+  version "1.45.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-sentry-react/-/eslint-config-sentry-react-1.45.0.tgz#cb08c25407dcac6c0d698b93571536b78e1dd5bc"
+  integrity sha512-tKmJUWh2Y5XWB6GYvXIOx2QOr74ukGB4aPFKXo+psJeO8FNWtksvdJArvDo84Ro+OIMHKMGOX1qFWj3M8EfoHQ==
   dependencies:
-    eslint-config-sentry "^1.43.0"
+    eslint-config-sentry "^1.45.0"
 
-eslint-config-sentry@^1.43.0:
-  version "1.43.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-sentry/-/eslint-config-sentry-1.43.0.tgz#c751e62773edc5527afd7a05a38708c4a2d244da"
-  integrity sha512-Id9Q1o6XFii9WkNgH1yRUZJeBhV23peG2887fy3aB9klHbNUkiQx1LAZloeeU4sgaGOpCH5HRLBEC8fECG1L5Q==
+eslint-config-sentry@^1.45.0:
+  version "1.45.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-sentry/-/eslint-config-sentry-1.45.0.tgz#e722f4fd8af160e657e45f086f23577283d38a23"
+  integrity sha512-rHIQMqP1lWrkx96U4Fw1goPxVImiOK+LMwCy/YW4OE3d7Dv+grLHpBRR5T2hyqstsq4BCJxXhMxSHP20VbfQ5Q==
 
 eslint-import-resolver-node@^0.3.3:
   version "0.3.4"
@@ -605,12 +605,17 @@ eslint-plugin-react@7.15.1:
     prop-types "^15.7.2"
     resolve "^1.12.0"
 
-eslint-plugin-sentry@^1.43.0:
-  version "1.43.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-sentry/-/eslint-plugin-sentry-1.43.0.tgz#114e248e63260054ad68ae5178f41122a4c5e77c"
-  integrity sha512-ick0N35r7nwHuv/cDGkB0PTmygE6xFjnAL531s39ykukHxDHeP7jTPya0vrRmYTlCzrgcZFCJXqxLaqp0alSyA==
+eslint-plugin-sentry@^1.45.0:
+  version "1.45.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-sentry/-/eslint-plugin-sentry-1.45.0.tgz#34a151325cc10dbb48b77a410c1307528e445654"
+  integrity sha512-LLus/ACxVoyMF/oP73cB6bREhZTItV9H+fw8r1slibMWwivUiTau8oc/rCrb5sKQ1iSjVkfFqqjskG4efudQow==
   dependencies:
     requireindex "~1.1.0"
+
+eslint-plugin-simple-import-sort@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-6.0.1.tgz#24a3af3b745dcd389c060db28e22d0f5e3edf86e"
+  integrity sha512-RfFnoi7fQtv7z9sZNJidIcZgWc0ZJe8uOPC3ldmatai4Igr5iDpzTmSUDEZKYm4TnrR01N0X32kfKvax7bivHQ==
 
 eslint-scope@^4.0.0:
   version "4.0.3"
