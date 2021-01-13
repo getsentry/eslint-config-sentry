@@ -144,7 +144,11 @@ module.exports = {
           ['^(sentry-test)(/.*|$)'],
 
           // Internal packages.
-          ['^(app|sentry|sentry-locale)(/.*|$)'],
+          ['^(sentry-locale|sentry-images)(/.*|$)'],
+
+          ['^(getsentry-images)(/.*|$)'],
+
+          ['^(app|sentry)(/.*|$)'],
 
           // Getsentry packages.
           ['^(admin|getsentry)(/.*|$)'],
