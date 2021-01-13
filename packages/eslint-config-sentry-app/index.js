@@ -103,7 +103,7 @@ module.exports = {
           {
             name: 'marked',
             message:
-              "Please import marked from 'app/utils/marked' so that we can ensure sanitation of marked output.",
+              "Please import marked from 'app/utils/marked' so that we can ensure sanitation of marked output",
           },
 
           {
@@ -115,6 +115,11 @@ module.exports = {
             name: 'lodash/get',
             message:
               'Optional chaining `?.` and nullish coalescing operators `??` are available and preferred over using `lodash/get`. See https://github.com/getsentry/frontend-handbook#new-syntax for more information',
+          },
+          {
+            name: 'react-bootstrap',
+            message:
+              'Avoid usage of any react-bootstrap components as it will soon be removed',
           },
         ],
       },
