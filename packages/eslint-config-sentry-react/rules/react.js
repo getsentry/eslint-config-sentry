@@ -114,12 +114,8 @@ module.exports = {
     // skipShapeProps because there are cases where it's impossible to detect if a shape's properties are being used
     'react/no-unused-prop-types': ['error', {skipShapeProps: true}],
 
-    'react/prop-types': [
-      'error',
-      {
-        ignore: ['style', 'className', 'children', 'location', 'params'],
-      },
-    ],
+    // We do not need proptypes since we're using typescript
+    'react/prop-types': ['off'],
 
     // When writing the render method in a component it is easy to forget to return the JSX content.
     // This rule will warn if the return statement is missing.
