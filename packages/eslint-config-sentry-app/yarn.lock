@@ -497,19 +497,19 @@ eslint-config-prettier@6.3.0:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-config-sentry-react@^1.54.0:
-  version "1.54.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-sentry-react/-/eslint-config-sentry-react-1.54.0.tgz#e9ab9c1e39a8a99e7b8c70228252f86319ddbecc"
-  integrity sha512-ASUdKe2pKFxSZRbpOkFT8PUxto1CThtA7r+6vW3JemdJhgnpcHjBJ2M5CEKDpIfRLsQ8YaYGpexrxULexJhMfw==
+eslint-config-sentry-react@^1.55.0:
+  version "1.55.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-sentry-react/-/eslint-config-sentry-react-1.55.0.tgz#ee0f8fbc7f25db6efd32df4a8be6c3f7523955fe"
+  integrity sha512-OWTeC0h2IdF09F5k//Vtpbq6YCUO/xJcjAHNJ9MA9/CdkIBVGk2Eu+Z8UpM/uWSqVGVP1QtEARYTbUPeVQ80ew==
   dependencies:
-    eslint-config-sentry "^1.54.0"
+    eslint-config-sentry "^1.55.0"
 
-eslint-config-sentry@^1.54.0:
-  version "1.54.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-sentry/-/eslint-config-sentry-1.54.0.tgz#899d67dd84b9922a2fda0db390766e9848edf904"
-  integrity sha512-y89qSPPhSIsTWGRcH1K76U4/fEZZNkJA9lkZNe/3M7+j+pAFwAUpCMsN5qIMJRqLao3vhPgwNp3ZrKMQgnC5zw==
+eslint-config-sentry@^1.55.0:
+  version "1.55.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-sentry/-/eslint-config-sentry-1.55.0.tgz#58531ac32997ed5fbeae1850866db85854fa05ed"
+  integrity sha512-3An+BVNV4/8UUN7ZiZY7s1+Tb5pg5Z1cGLSCqtfFt+/8CZq2x4vXfYVgOQKIbr/Zj1wreQnvCqfk6/Rgu8Nf9Q==
 
-eslint-import-resolver-node@^0.3.3:
+eslint-import-resolver-node@^0.3.4:
   version "0.3.4"
   resolved "https://registry.yarnpkg.com/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.4.tgz#85ffa81942c25012d8231096ddf679c03042c717"
   integrity sha512-ogtf+5AB/O+nM6DIeBUNr2fuT7ot9Qg/1harBfBtaP13ekEWFQEEMP94BCB7zaNW3gyY+8SHYF00rnqYwXKWOA==
@@ -517,21 +517,21 @@ eslint-import-resolver-node@^0.3.3:
     debug "^2.6.9"
     resolve "^1.13.1"
 
-eslint-import-resolver-typescript@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-2.0.0.tgz#e95f126cc12d3018b9cc11692b4dbfd3e17d3ea6"
-  integrity sha512-bT5Frpl8UWoHBtY25vKUOMoVIMlJQOMefHLyQ4Tz3MQpIZ2N6yYKEEIHMo38bszBNUuMBW6M3+5JNYxeiGFH4w==
+eslint-import-resolver-typescript@^2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-2.4.0.tgz#ec1e7063ebe807f0362a7320543aaed6fe1100e1"
+  integrity sha512-useJKURidCcldRLCNKWemr1fFQL1SzB3G4a0li6lFGvlc5xGe1hY343bvG07cbpCzPuM/lK19FIJB3XGFSkplA==
   dependencies:
     debug "^4.1.1"
+    glob "^7.1.6"
     is-glob "^4.0.1"
-    resolve "^1.12.0"
-    tiny-glob "^0.2.6"
+    resolve "^1.17.0"
     tsconfig-paths "^3.9.0"
 
-eslint-import-resolver-webpack@^0.12.2:
-  version "0.12.2"
-  resolved "https://registry.yarnpkg.com/eslint-import-resolver-webpack/-/eslint-import-resolver-webpack-0.12.2.tgz#769e86cd0c752a1536c19855ebd90aa14ce384ee"
-  integrity sha512-7Jnm4YAoNNkvqPaZkKdIHsKGmv8/uNnYC5QsXkiSodvX4XEEfH2AKOna98FK52fCDXm3q4HzuX+7pRMKkJ64EQ==
+eslint-import-resolver-webpack@^0.13.0:
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/eslint-import-resolver-webpack/-/eslint-import-resolver-webpack-0.13.0.tgz#5cb19cf4b6996c8a2514aeb10f909e2c70488dc3"
+  integrity sha512-hZWGcmjaJZK/WSCYGI/y4+FMGQZT+cwW/1E/P4rDwFj2PbanlQHISViw4ccDJ+2wxAqjgwBfxwy3seABbVKDEw==
   dependencies:
     array-find "^1.0.0"
     debug "^2.6.9"
@@ -557,17 +557,17 @@ eslint-plugin-emotion@^10.0.27:
   resolved "https://registry.yarnpkg.com/eslint-plugin-emotion/-/eslint-plugin-emotion-10.0.27.tgz#577a4265cc679f7bb826437a92fb9d709928e0a7"
   integrity sha512-0IG9KWmyQTAWZNM4WoGjFbdre1Xq6uMp2jYOSHvh3ZNcDfOjOLXeH3ky1MuWZlbWIHxz/Ed5DMGlJAeKnd26VA==
 
-eslint-plugin-import@^2.22.0:
-  version "2.22.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.22.0.tgz#92f7736fe1fde3e2de77623c838dd992ff5ffb7e"
-  integrity sha512-66Fpf1Ln6aIS5Gr/55ts19eUuoDhAbZgnr6UxK5hbDx6l/QgQgx61AePq+BV4PP2uXQFClgMVzep5zZ94qqsxg==
+eslint-plugin-import@^2.22.1:
+  version "2.22.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.22.1.tgz#0896c7e6a0cf44109a2d97b95903c2bb689d7702"
+  integrity sha512-8K7JjINHOpH64ozkAhpT3sd+FswIZTfMZTjdx052pnWrgRCVfp8op9tbjpAk3DdUeI/Ba4C8OjdC0r90erHEOw==
   dependencies:
     array-includes "^3.1.1"
     array.prototype.flat "^1.2.3"
     contains-path "^0.1.0"
     debug "^2.6.9"
     doctrine "1.5.0"
-    eslint-import-resolver-node "^0.3.3"
+    eslint-import-resolver-node "^0.3.4"
     eslint-module-utils "^2.6.0"
     has "^1.0.3"
     minimatch "^3.0.4"
@@ -605,17 +605,17 @@ eslint-plugin-react@7.15.1:
     prop-types "^15.7.2"
     resolve "^1.12.0"
 
-eslint-plugin-sentry@^1.54.0:
-  version "1.54.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-sentry/-/eslint-plugin-sentry-1.54.0.tgz#403bbfe76801f6e9b2aa88541f53b5815c70001d"
-  integrity sha512-6w9fCAoRtFODchVJR8mbiVyiOefE3Q9v/y4mzzH6WJv0nAXcHgaLWzamjvutzXn8Q0ExoDsNJW4pyQjgkRKH6A==
+eslint-plugin-sentry@^1.55.0:
+  version "1.55.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-sentry/-/eslint-plugin-sentry-1.55.0.tgz#17c6824ff5b17d5ebb89d30d3c6be3f60a2a9681"
+  integrity sha512-bcN+frKXcUTIj5X3XOsRrQhtjwairAgjOmc/D7EVzSvsYZi6SQFBiPCCeEwhefZw1PoSjOqzxiYjG1jLNAsr4w==
   dependencies:
     requireindex "~1.1.0"
 
-eslint-plugin-simple-import-sort@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-6.0.1.tgz#24a3af3b745dcd389c060db28e22d0f5e3edf86e"
-  integrity sha512-RfFnoi7fQtv7z9sZNJidIcZgWc0ZJe8uOPC3ldmatai4Igr5iDpzTmSUDEZKYm4TnrR01N0X32kfKvax7bivHQ==
+eslint-plugin-simple-import-sort@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-simple-import-sort/-/eslint-plugin-simple-import-sort-7.0.0.tgz#a1dad262f46d2184a90095a60c66fef74727f0f8"
+  integrity sha512-U3vEDB5zhYPNfxT5TYR7u01dboFZp+HNpnGhkDB2g/2E4wZ/g1Q9Ton8UwCLfRV9yAKyYqDh62oHOamvkFxsvw==
 
 eslint-scope@^4.0.0:
   version "4.0.3"
@@ -723,16 +723,6 @@ glob@^7.1.6:
     minimatch "^3.0.4"
     once "^1.3.0"
     path-is-absolute "^1.0.0"
-
-globalyzer@^0.1.0:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/globalyzer/-/globalyzer-0.1.4.tgz#bc8e273afe1ac7c24eea8def5b802340c5cc534f"
-  integrity sha512-LeguVWaxgHN0MNbWC6YljNMzHkrCny9fzjmEUdnF1kQ7wATFD1RHFRqA1qxaX2tgxGENlcxjOflopBwj3YZiXA==
-
-globrex@^0.1.1:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/globrex/-/globrex-0.1.2.tgz#dd5d9ec826232730cd6793a5e33a9302985e6098"
-  integrity sha512-uHJgbwAMwNFf5mLst7IWLNg14x1CkeqglJb/K3doi4dw6q2IvAAmM/Y81kevy83wP+Sst+nutFTYOGg3d1lsxg==
 
 graceful-fs@^4.1.2:
   version "4.2.2"
@@ -1533,14 +1523,6 @@ timers-browserify@^2.0.4:
   integrity sha512-60aV6sgJ5YEbzUdn9c8kYGIqOubPoUdqQCul3SBAsRCZ40s6Y5cMcrW4dt3/k/EsbLVJNl9n6Vz3fTc+k2GeKQ==
   dependencies:
     setimmediate "^1.0.4"
-
-tiny-glob@^0.2.6:
-  version "0.2.6"
-  resolved "https://registry.yarnpkg.com/tiny-glob/-/tiny-glob-0.2.6.tgz#9e056e169d9788fe8a734dfa1ff02e9b92ed7eda"
-  integrity sha512-A7ewMqPu1B5PWwC3m7KVgAu96Ch5LA0w4SnEN/LbDREj/gAD0nPWboRbn8YoP9ISZXqeNAlMvKSKoEuhcfK3Pw==
-  dependencies:
-    globalyzer "^0.1.0"
-    globrex "^0.1.1"
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
