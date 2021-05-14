@@ -79,6 +79,9 @@ module.exports = {
 
     'no-unused-vars': 'off',
 
+    'no-use-before-define': 'off',
+    '@typescript-eslint/no-use-before-define': ['error']
+
     /**
      * Restricted imports, e.g. deprecated libraries, etc
      *
