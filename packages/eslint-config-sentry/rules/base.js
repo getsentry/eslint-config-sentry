@@ -261,5 +261,15 @@ module.exports = {
 
     // https://eslint.org/docs/rules/yoda
     yoda: ['error'],
+
+    // https://eslint.org/docs/rules/spaced-comment
+    'spaced-comment': [
+      'error',
+      'always',
+      {
+        line: {markers: ['/'], exceptions: ['-', '+']},
+        block: {exceptions: ['*'], balanced: true},
+      },
+    ],
   },
 };
