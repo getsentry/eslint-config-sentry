@@ -4,7 +4,7 @@ sentry.io eslint plugin
 
 ## Installation
 
-You'll first need to install [ESLint](http://eslint.org):
+You'll first need to install [ESLint](https://eslint.org):
 
 ```
 $ npm i eslint --save-dev
