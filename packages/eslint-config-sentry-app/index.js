@@ -169,6 +169,14 @@ module.exports = {
         ],
       },
     ],
+    'import/extensions': [
+      'error',
+      {
+        js: 'never',
+        jsx: 'never',
+        tsx: 'never',
+      },
+    ],
 
     'sentry/no-digits-in-tn': ['error'],
 
