@@ -267,17 +267,17 @@ eslint-config-prettier@6.3.0:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-config-sentry-react@^1.55.0:
-  version "1.55.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-sentry-react/-/eslint-config-sentry-react-1.55.0.tgz#ee0f8fbc7f25db6efd32df4a8be6c3f7523955fe"
-  integrity sha512-OWTeC0h2IdF09F5k//Vtpbq6YCUO/xJcjAHNJ9MA9/CdkIBVGk2Eu+Z8UpM/uWSqVGVP1QtEARYTbUPeVQ80ew==
+eslint-config-sentry-react@^1.56.0:
+  version "1.56.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-sentry-react/-/eslint-config-sentry-react-1.56.0.tgz#71f96dd49b0264292b162f7227b5e19d2f4fb8ff"
+  integrity sha512-c+kfP8rulsCT214UeOHm8KB1ymbwZv5dl2L7BBVGp1Y7aVyMvUZtsqHrxvMZVBHh89he1sip4En0cxv21i/o3w==
   dependencies:
-    eslint-config-sentry "^1.55.0"
+    eslint-config-sentry "^1.56.0"
 
-eslint-config-sentry@^1.55.0:
-  version "1.55.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-sentry/-/eslint-config-sentry-1.55.0.tgz#58531ac32997ed5fbeae1850866db85854fa05ed"
-  integrity sha512-3An+BVNV4/8UUN7ZiZY7s1+Tb5pg5Z1cGLSCqtfFt+/8CZq2x4vXfYVgOQKIbr/Zj1wreQnvCqfk6/Rgu8Nf9Q==
+eslint-config-sentry@^1.56.0:
+  version "1.56.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-sentry/-/eslint-config-sentry-1.56.0.tgz#ef94fc0ec831774e7aac8b3560ed35e59201f3f7"
+  integrity sha512-pmvIYPQf23JhEiwyENC38s1Gfg1eNCQPpG1HtGIHQHxNIv8i+4n74kFdSHcNl02wRQH9KUx5SSE3emjSwQnIDA==
 
 eslint-import-resolver-node@^0.3.4:
   version "0.3.4"
@@ -378,10 +378,10 @@ eslint-plugin-react@7.15.1:
     prop-types "^15.7.2"
     resolve "^1.12.0"
 
-eslint-plugin-sentry@^1.55.0:
-  version "1.55.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-sentry/-/eslint-plugin-sentry-1.55.0.tgz#17c6824ff5b17d5ebb89d30d3c6be3f60a2a9681"
-  integrity sha512-bcN+frKXcUTIj5X3XOsRrQhtjwairAgjOmc/D7EVzSvsYZi6SQFBiPCCeEwhefZw1PoSjOqzxiYjG1jLNAsr4w==
+eslint-plugin-sentry@^1.56.0:
+  version "1.56.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-sentry/-/eslint-plugin-sentry-1.56.0.tgz#371eb2e4c38af1fc9d5963f74d3ecb996492ddef"
+  integrity sha512-JXnQ/2xKFcnntl14hAe5xBCK2lr17UZXyLOCoKWZ7lTFaPtXbQ+xAE/bm0VMpT4ujWyKNRqRcwQ0Q8wGlsqJtA==
   dependencies:
     requireindex "~1.1.0"
 
@@ -696,12 +696,7 @@ lodash.unescape@4.0.1:
   resolved "https://registry.yarnpkg.com/lodash.unescape/-/lodash.unescape-4.0.1.tgz#bf2249886ce514cda112fae9218cdc065211fc9c"
   integrity sha1-vyJJiGzlFM2hEvrpIYzcBlIR/Jw=
 
-lodash@^4.17.15:
-  version "4.17.20"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
-  integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
-
-lodash@^4.17.21:
+lodash@^4.17.15, lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
