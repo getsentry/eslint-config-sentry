@@ -59,8 +59,15 @@ module.exports = {
     'emotion/import-from-emotion': 'error',
     'emotion/styled-import': 'error',
 
+    /**
+     * Need to use typescript version of these rules
+     */
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": "error",
+
     // This only override the `args` rule (which is "none"). There are too many errors and it's difficult to manually
     // fix them all, so we'll have to incrementally update.
+    'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': [
       'error',
       {
@@ -76,10 +83,6 @@ module.exports = {
         argsIgnorePattern: '^_',
       },
     ],
-
-    // Use the TS version of these rules
-    'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': ['error'],
 
     'no-use-before-define': 'off',
     // This seems to have been turned on while previously it had been off
