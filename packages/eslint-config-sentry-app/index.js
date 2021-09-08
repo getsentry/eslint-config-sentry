@@ -78,9 +78,7 @@ module.exports = {
     ],
 
     // Use the TS version of these rules
-    'no-undef': 'off',
     'no-unused-vars': 'off',
-    '@typescript-eslint/no-undef': ['error'],
     '@typescript-eslint/no-unused-vars': ['error'],
 
     'no-use-before-define': 'off',
