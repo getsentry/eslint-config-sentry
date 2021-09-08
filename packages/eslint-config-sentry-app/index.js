@@ -77,10 +77,15 @@ module.exports = {
       },
     ],
 
+    // Use the TS version of these rules
+    'no-undef': 'off',
     'no-unused-vars': 'off',
+    '@typescript-eslint/no-undef': ['error'],
+    '@typescript-eslint/no-unused-vars': ['error'],
 
     'no-use-before-define': 'off',
-    '@typescript-eslint/no-use-before-define': ['error'],
+    // This seems to have been turned on while previously it had been off
+    '@typescript-eslint/no-use-before-define': ['off'],
 
     /**
      * Restricted imports, e.g. deprecated libraries, etc
