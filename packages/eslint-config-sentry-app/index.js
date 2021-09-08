@@ -59,6 +59,11 @@ module.exports = {
     'emotion/import-from-emotion': 'error',
     'emotion/styled-import': 'error',
 
+    // no-undef is not needed with typescript as tsc will complain
+    // The downside is that we won't get eslint errors about it, but your editors should
+    // support tsc errors so....
+    'no-undef': 'off',
+
     /**
      * Need to use typescript version of these rules
      */
