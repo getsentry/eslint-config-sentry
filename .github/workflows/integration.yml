@@ -17,8 +17,9 @@ jobs:
           repository: getsentry/sentry
           path: sentry
 
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v2
         with:
+          cache: yarn
           node-version: 12
 
       - name: Setup Dependencies
