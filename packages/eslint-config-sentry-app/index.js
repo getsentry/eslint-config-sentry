@@ -59,8 +59,23 @@ module.exports = {
     'emotion/import-from-emotion': 'error',
     'emotion/styled-import': 'error',
 
+    // no-undef is redundant with typescript as tsc will complain
+    // A downside is that we won't get eslint errors about it, but your editors should
+    // support tsc errors so....
+    'no-undef': 'off',
+
+    /**
+     * Need to use typescript version of these rules
+     */
+    "no-shadow": "off",
+    "@typescript-eslint/no-shadow": "error",
+
+    "no-redeclare": "off",
+    "@typescript-eslint/no-redeclare": "error",
+
     // This only override the `args` rule (which is "none"). There are too many errors and it's difficult to manually
     // fix them all, so we'll have to incrementally update.
+    'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': [
       'error',
       {
@@ -77,7 +92,9 @@ module.exports = {
       },
     ],
 
-    'no-unused-vars': 'off',
+    'no-use-before-define': 'off',
+    // This seems to have been turned on while previously it had been off
+    '@typescript-eslint/no-use-before-define': ['off'],
 
     /**
      * Restricted imports, e.g. deprecated libraries, etc
