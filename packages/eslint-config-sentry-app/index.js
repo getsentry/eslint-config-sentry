@@ -146,6 +146,17 @@ module.exports = {
             message:
               'Avoid usage of any react-bootstrap components as it will soon be removed',
           },
+        ],
+      },
+    ],
+
+    /**
+     * Warnings for imports still in use but will be removed
+     */
+    'no-restricted-imports': [
+      'warn',
+      {
+        paths: [
           {
             name: 'sentry-test/enzyme',
             message:
