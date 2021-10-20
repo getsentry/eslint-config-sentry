@@ -32,7 +32,15 @@ module.exports = {
     jquery: true, // hard-loaded into vendor.js
   },
 
-  plugins: ['@typescript-eslint', 'emotion', 'import', 'prettier', 'react', 'sentry', 'simple-import-sort'],
+  plugins: [
+    '@typescript-eslint',
+    'emotion',
+    'import',
+    'prettier',
+    'react',
+    'sentry',
+    'simple-import-sort',
+  ],
 
   settings: {
     'import/parsers': {
@@ -67,11 +75,11 @@ module.exports = {
     /**
      * Need to use typescript version of these rules
      */
-    "no-shadow": "off",
-    "@typescript-eslint/no-shadow": "error",
+    'no-shadow': 'off',
+    '@typescript-eslint/no-shadow': 'error',
 
-    "no-redeclare": "off",
-    "@typescript-eslint/no-redeclare": "error",
+    'no-redeclare': 'off',
+    '@typescript-eslint/no-redeclare': 'error',
 
     // This only override the `args` rule (which is "none"). There are too many errors and it's difficult to manually
     // fix them all, so we'll have to incrementally update.
@@ -138,6 +146,11 @@ module.exports = {
             message:
               'Avoid usage of any react-bootstrap components as it will soon be removed',
           },
+          {
+            name: 'sentry-test/enzyme',
+            message:
+              'As we are converting our enzyme tests to React Testing Library, please avoid using `sentry-test/enzyme` and use `sentry-test/reactTestingLibrary` instead.',
+          },
         ],
       },
     ],
@@ -155,9 +168,7 @@ module.exports = {
           ['^\\u0000'],
 
           // Node.js builtins.
-          [
-            `^(${require("module").builtinModules.join("|")})(/|$)`,
-          ],
+          [`^(${require('module').builtinModules.join('|')})(/|$)`],
 
           // Packages. `react` related packages come first.
           ['^react', '^@?\\w'],
