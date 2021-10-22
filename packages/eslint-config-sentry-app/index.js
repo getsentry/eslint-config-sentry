@@ -151,22 +151,6 @@ module.exports = {
     ],
 
     /**
-     * Warnings for imports still in use but will be removed
-     */
-    'no-restricted-imports': [
-      'warn',
-      {
-        paths: [
-          {
-            name: 'sentry-test/enzyme',
-            message:
-              'As we are converting our enzyme tests to React Testing Library, please avoid using `sentry-test/enzyme` and use `sentry-test/reactTestingLibrary` instead.',
-          },
-        ],
-      },
-    ],
-
-    /**
      * Better import sorting
      */
     'sort-imports': 'off',
