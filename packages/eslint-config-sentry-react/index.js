@@ -6,7 +6,10 @@ module.exports = {
     'sentry-react/rules/imports',
     'plugin:jest/recommended',
     'sentry-react/rules/jest',
+    'plugin:jest-dom/recommended',
   ],
+
+  plugins: ['jest-dom'],
 
   rules: {
     /**
