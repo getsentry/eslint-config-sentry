@@ -26,7 +26,8 @@
   },
   "homepage": "https://github.com/getsentry/eslint-config-sentry#readme",
   "dependencies": {
-    "eslint-config-sentry": "^1.63.0"
+    "eslint-config-sentry": "^1.63.0",
+    "eslint-plugin-jest-dom": "^3.9.2"
   },
   "volta": {
     "node": "10.16.3",
