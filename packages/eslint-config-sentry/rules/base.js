@@ -120,7 +120,7 @@ module.exports = {
     'consistent-return': ['error'],
 
     // https://eslint.org/docs/rules/curly
-    curly: ['error', 'all'],
+    curly: ['error'],
 
     // https://eslint.org/docs/rules/default-case
     'default-case': ['error'],
