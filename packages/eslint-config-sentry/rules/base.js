@@ -262,6 +262,9 @@ module.exports = {
     // https://eslint.org/docs/rules/yoda
     yoda: ['error'],
 
+    // https://eslint.org/docs/rules/no-else-return
+    'no-else-return': ['error', {allowElseIf: false}],
+
     // https://eslint.org/docs/rules/spaced-comment
     'spaced-comment': [
       'error',
