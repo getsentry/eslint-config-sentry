@@ -9,7 +9,7 @@ module.exports = {
     'plugin:jest-dom/recommended',
   ],
 
-  plugins: ['jest-dom'],
+  plugins: ['jest-dom', 'testing-library'],
 
   rules: {
     /**
@@ -17,5 +17,20 @@ module.exports = {
      */
     // highlights literals in JSX components w/o translation tags
     'getsentry/jsx-needs-il8n': ['off'],
+    'testing-library/render-result-naming-convention': 'off',
+    'testing-library/prefer-screen-queries': 'off',
   },
+
+  /**
+   * Our current version of eslint unfortunately does not support extends in
+   * overrides. Once we upgrade we can uncomment this and remove local
+   * .eslintrc.js files in test folders. It is there to ensure that
+   * testing-library rules run only against test files.
+   */
+  // overrides: [
+  //   {
+  //     files: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
+  //     extends: ['plugin:testing-library/react'],
+  //   },
+  // ],
 };
