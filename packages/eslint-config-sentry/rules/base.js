@@ -120,7 +120,7 @@ module.exports = {
     'consistent-return': ['error'],
 
     // https://eslint.org/docs/rules/curly
-    curly: ['error', 'all'],
+    curly: ['error'],
 
     // https://eslint.org/docs/rules/default-case
     'default-case': ['error'],
@@ -261,6 +261,9 @@ module.exports = {
 
     // https://eslint.org/docs/rules/yoda
     yoda: ['error'],
+
+    // https://eslint.org/docs/rules/no-else-return
+    'no-else-return': ['error', {allowElseIf: false}],
 
     // https://eslint.org/docs/rules/spaced-comment
     'spaced-comment': [

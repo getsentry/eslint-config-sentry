@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.66.0 (2021-11-04)
+
+**Note:** Version bump only for package eslint-config-sentry-react
+
+
+
+
+
+# 1.65.0 (2021-11-03)
+
+**Note:** Version bump only for package eslint-config-sentry-react
+
+
+
+
+
 # 1.64.0 (2021-10-29)
 
 **Note:** Version bump only for package eslint-config-sentry-react
