@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sentry-app",
-  "version": "1.67.0",
+  "version": "1.68.0",
   "description": "sentry.io eslint config",
   "main": "index.js",
   "scripts": {},
@@ -27,8 +27,8 @@
     "@typescript-eslint/eslint-plugin": "^4.31.0",
     "@typescript-eslint/parser": "^4.31.0",
     "eslint-config-prettier": "6.3.0",
-    "eslint-config-sentry": "^1.67.0",
-    "eslint-config-sentry-react": "^1.67.0",
+    "eslint-config-sentry": "^1.68.0",
+    "eslint-config-sentry-react": "^1.68.0",
     "eslint-import-resolver-typescript": "^2.4.0",
     "eslint-import-resolver-webpack": "^0.13.1",
     "eslint-plugin-emotion": "^10.0.27",
@@ -36,7 +36,7 @@
     "eslint-plugin-jest": "22.17.0",
     "eslint-plugin-prettier": "3.1.1",
     "eslint-plugin-react": "7.15.1",
-    "eslint-plugin-sentry": "^1.67.0",
+    "eslint-plugin-sentry": "^1.68.0",
     "eslint-plugin-simple-import-sort": "^7.0.0"
   },
   "resolutions": {
