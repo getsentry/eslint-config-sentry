@@ -146,6 +146,12 @@ module.exports = {
             message:
               'Avoid usage of any react-bootstrap components as it will soon be removed',
           },
+          {
+            name: 'sentry/utils/theme',
+            importNames: ['lightColors', 'darkColors'],
+            message:
+              "'lightColors' and 'darkColors' exports intended for use in Storybook only. Instead, use theme prop from emotion or the useTheme hook.",
+          },
         ],
       },
     ],
