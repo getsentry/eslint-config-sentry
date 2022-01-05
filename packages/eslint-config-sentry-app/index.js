@@ -72,6 +72,9 @@ module.exports = {
     // support tsc errors so....
     'no-undef': 'off',
 
+    // Override prettier's configuration of this rule
+    curly: ['error'],
+
     /**
      * Need to use typescript version of these rules
      */
