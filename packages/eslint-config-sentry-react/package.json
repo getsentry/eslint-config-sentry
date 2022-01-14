@@ -31,8 +31,8 @@
     "eslint-plugin-testing-library": "^4.12.4"
   },
   "volta": {
-    "node": "10.16.3",
-    "yarn": "1.21.1"
+    "node": "16.13.1",
+    "yarn": "1.22.5"
   },
   "gitHead": "7ea9fe88aead7b4d6e86e5aeea1391a80fbb08d0"
 }
