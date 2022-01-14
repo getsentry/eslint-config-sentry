@@ -20,7 +20,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           cache: 'yarn'
-          node-version: '12'
+          node-version: '16'
 
       - name: Setup Dependencies
         run: yarn install
