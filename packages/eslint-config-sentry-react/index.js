@@ -18,6 +18,7 @@ module.exports = {
     // highlights literals in JSX components w/o translation tags
     'getsentry/jsx-needs-il8n': ['off'],
     'testing-library/render-result-naming-convention': 'off',
+    'testing-library/no-unnecessary-act': 'off',
   },
 
   /**
