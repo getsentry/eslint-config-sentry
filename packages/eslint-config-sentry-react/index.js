@@ -9,7 +9,7 @@ module.exports = {
     'plugin:jest-dom/recommended',
   ],
 
-  plugins: ['jest-dom', 'testing-library'],
+  plugins: ['jest-dom', 'testing-library', 'typescript-sort-keys'],
 
   rules: {
     /**
@@ -19,6 +19,7 @@ module.exports = {
     'getsentry/jsx-needs-il8n': ['off'],
     'testing-library/render-result-naming-convention': 'off',
     'testing-library/no-unnecessary-act': 'off',
+    'typescript-sort-keys/interface': ['error', 'asc', {'caseSensitive': true, 'natural': false, 'requiredFirst': true }],
   },
 
   /**
