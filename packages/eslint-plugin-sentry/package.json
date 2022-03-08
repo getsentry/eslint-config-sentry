@@ -2,6 +2,7 @@
   "name": "eslint-plugin-sentry",
   "version": "1.77.0",
   "description": "sentry.io eslint plugin",
+  "repository": "getsentry/eslint-config-sentry",
   "keywords": [
     "eslint",
     "eslintplugin",

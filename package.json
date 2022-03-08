@@ -1,6 +1,7 @@
 {
   "name": "eslint-config-sentry-monorepo",
   "private": true,
+  "repository": "getsentry/eslint-config-sentry",
   "scripts": {
     "test": "yarn lerna run test",
     "release": "yarn lerna exec -- yarn && yarn lerna version minor --conventional-commits"
