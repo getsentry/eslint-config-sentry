@@ -25,15 +25,9 @@ module.exports = {
     'no-restricted-imports': [
       'error',
       {
-        paths: [...relaxedRules.rules['no-restricted-imports'][1].paths],
-      },
-      {
         paths: [
-          {
-            name: 'sentry-test/enzyme',
-            message:
-              '`sentry-test/enzyme` is deprecated, so unless you are updating a file that uses enzyme, please write tests using `sentry-test/reactTestingLibrary`.',
-          },
+          ...relaxedRules.rules['no-restricted-imports'][1].paths,
+          // Additional Strict import restrictions go here
         ],
       },
     ],
