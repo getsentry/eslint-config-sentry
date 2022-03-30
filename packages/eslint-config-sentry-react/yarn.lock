@@ -234,10 +234,10 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-sentry@^1.76.0:
-  version "1.76.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-sentry/-/eslint-config-sentry-1.76.0.tgz#3ed18e277686dbb085c602c6d285fb583c24cfa7"
-  integrity sha512-6RNp6duS8NTwLhMS6uOKJSTzC3F7Re38x7D5mNHSTj7R1QFjL4iMHec86Ph64S7ogT7YRKfYW+1S0kOYWImMgw==
+eslint-config-sentry@^1.81.0:
+  version "1.82.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-sentry/-/eslint-config-sentry-1.82.0.tgz#b0f339f6076374050c94a9ee1946444f1c25ab8d"
+  integrity sha512-X/pbITvVSoRXXfCWIiDZ44+axc5x4EU+1ADBzhzw9jpMdHnkl6GtPYHsZyZC1APHfJ495WLjm74a8EjZhOe9sA==
 
 eslint-plugin-jest-dom@^4.0.1:
   version "4.0.1"

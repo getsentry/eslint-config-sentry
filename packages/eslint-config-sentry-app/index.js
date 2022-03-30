@@ -6,10 +6,7 @@ module.exports = {
     // These prettier plugins need to be last so they can override plugin rules
     // See https://github.com/prettier/eslint-config-prettier/blob/master/README.md#installation
     // for plugin exclusions
-    'prettier',
     'plugin:prettier/recommended',
-    'prettier/@typescript-eslint',
-    'prettier/react',
     'plugin:import/typescript',
   ],
 
@@ -34,7 +31,7 @@ module.exports = {
 
   plugins: [
     '@typescript-eslint',
-    'emotion',
+    '@emotion',
     'import',
     'prettier',
     'react',
@@ -62,10 +59,10 @@ module.exports = {
      *
      * This probably aren't as necessary anymore, but let's remove when we move to v11
      */
-    'emotion/jsx-import': 'off',
-    'emotion/no-vanilla': 'error',
-    'emotion/import-from-emotion': 'error',
-    'emotion/styled-import': 'error',
+    '@emotion/jsx-import': 'off',
+    '@emotion/no-vanilla': 'error',
+    '@emotion/import-from-emotion': 'error',
+    '@emotion/styled-import': 'error',
 
     // no-undef is redundant with typescript as tsc will complain
     // A downside is that we won't get eslint errors about it, but your editors should
@@ -122,17 +119,17 @@ module.exports = {
               'Please import from `sentry-test/enzyme` instead. See: https://github.com/getsentry/frontend-handbook#undefined-theme-properties-in-tests for more information',
           },
           {
-            name: "@testing-library/react",
+            name: '@testing-library/react',
             message:
               'Please import from `sentry-test/reactTestingLibrary` instead so that we can ensure consistency throughout the codebase',
           },
           {
-            name: "@testing-library/react-hooks",
+            name: '@testing-library/react-hooks',
             message:
               'Please import from `sentry-test/reactTestingLibrary` instead so that we can ensure consistency throughout the codebase',
           },
           {
-            name: "@testing-library/user-event",
+            name: '@testing-library/user-event',
             message:
               'Please import from `sentry-test/reactTestingLibrary` instead so that we can ensure consistency throughout the codebase',
           },
