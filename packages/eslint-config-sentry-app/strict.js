@@ -25,14 +25,7 @@ module.exports = {
     'no-restricted-imports': [
       'error',
       {
-        paths: [
-          ...relaxedRules.rules['no-restricted-imports'][1].paths,
-          {
-            name: 'reflexbox',
-            message:
-              '`reflexbox` (previously `grid-emotion`) is deprecated. Please remove usage of `reflexbox` unless you are editing a Panel component or a component with breakpoints. See https://github.com/getsentry/frontend-handbook/blob/master/migration-guides/grid-emotion.md for migration help.',
-          },
-        ],
+        paths: [...relaxedRules.rules['no-restricted-imports'][1].paths],
       },
       {
         paths: [
