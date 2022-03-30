@@ -34,6 +34,8 @@ jobs:
           yarn add -D ../packages/eslint-config-sentry-app
 
       - name: Run lint in sentry
+        env:
+          SENTRY_ESLINT_RELAXED: 1
         run: |
           cd sentry
-          yarn lint --config .eslintrc.relax.js
+          yarn lint
