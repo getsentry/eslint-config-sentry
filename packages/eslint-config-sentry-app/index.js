@@ -6,10 +6,7 @@ module.exports = {
     // These prettier plugins need to be last so they can override plugin rules
     // See https://github.com/prettier/eslint-config-prettier/blob/master/README.md#installation
     // for plugin exclusions
-    'prettier',
     'plugin:prettier/recommended',
-    'prettier/@typescript-eslint',
-    'prettier/react',
     'plugin:import/typescript',
   ],
 
@@ -74,6 +71,9 @@ module.exports = {
 
     // Override prettier's configuration of this rule
     curly: ['error'],
+
+    // Override prettier's configuration of this rule
+    'arrow-body-style': 'off',
 
     /**
      * Need to use typescript version of these rules
