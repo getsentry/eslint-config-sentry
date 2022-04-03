@@ -151,7 +151,7 @@ module.exports = {
         allowArrowFunction: false,
         allowAnonymousClass: false,
         allowAnonymousFunction: false,
-        allowCallExpression: false,
+        allowCallExpression: true,
         allowLiteral: false,
         allowObject: false,
       },
