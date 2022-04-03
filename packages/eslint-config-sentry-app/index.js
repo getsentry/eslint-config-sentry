@@ -31,7 +31,7 @@ module.exports = {
 
   plugins: [
     '@typescript-eslint',
-    'emotion',
+    '@emotion',
     'import',
     'prettier',
     'react',
@@ -59,10 +59,10 @@ module.exports = {
      *
      * This probably aren't as necessary anymore, but let's remove when we move to v11
      */
-    'emotion/jsx-import': 'off',
-    'emotion/no-vanilla': 'error',
-    'emotion/import-from-emotion': 'error',
-    'emotion/styled-import': 'error',
+    '@emotion/jsx-import': 'off',
+    '@emotion/no-vanilla': 'error',
+    '@emotion/import-from-emotion': 'error',
+    '@emotion/styled-import': 'error',
 
     // no-undef is redundant with typescript as tsc will complain
     // A downside is that we won't get eslint errors about it, but your editors should
