@@ -19,7 +19,11 @@ module.exports = {
     'getsentry/jsx-needs-il8n': ['off'],
     'testing-library/render-result-naming-convention': 'off',
     'testing-library/no-unnecessary-act': 'off',
-    'typescript-sort-keys/interface': ['error', 'asc', {'caseSensitive': true, 'natural': false, 'requiredFirst': true }],
+    'typescript-sort-keys/interface': [
+      'error',
+      'asc',
+      {caseSensitive: true, natural: false, requiredFirst: true},
+    ],
   },
 
   /**

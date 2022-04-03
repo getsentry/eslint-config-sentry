@@ -122,17 +122,17 @@ module.exports = {
               'Please import from `sentry-test/enzyme` instead. See: https://github.com/getsentry/frontend-handbook#undefined-theme-properties-in-tests for more information',
           },
           {
-            name: "@testing-library/react",
+            name: '@testing-library/react',
             message:
               'Please import from `sentry-test/reactTestingLibrary` instead so that we can ensure consistency throughout the codebase',
           },
           {
-            name: "@testing-library/react-hooks",
+            name: '@testing-library/react-hooks',
             message:
               'Please import from `sentry-test/reactTestingLibrary` instead so that we can ensure consistency throughout the codebase',
           },
           {
-            name: "@testing-library/user-event",
+            name: '@testing-library/user-event',
             message:
               'Please import from `sentry-test/reactTestingLibrary` instead so that we can ensure consistency throughout the codebase',
           },

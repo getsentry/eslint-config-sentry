@@ -18,11 +18,10 @@ module.exports = {
     fixable: true,
     schema: [],
   },
-  create: function(context) {
+  create: function (context) {
     //----------------------------------------------------------------------
     // Public
     //----------------------------------------------------------------------
-
 
     return {
       Identifier(node) {
@@ -32,13 +31,12 @@ module.exports = {
 
         context.report({
           node,
-          message: "Do not use jest snapshots, instead use `toSnapshot()` for visual snapshots",
+          message:
+            'Do not use jest snapshots, instead use `toSnapshot()` for visual snapshots',
 
           fix(fixer) {
-            return [
-              fixer.replaceText(node, 'toSnapshot')
-            ];
-          }
+            return [fixer.replaceText(node, 'toSnapshot')];
+          },
         });
       },
     };
