@@ -112,8 +112,9 @@ module.exports = {
     'react/no-unknown-property': ['error'],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-prop-types.md
-    // skipShapeProps because there are cases where it's impossible to detect if a shape's properties are being used
-    'react/no-unused-prop-types': ['error', {skipShapeProps: true}],
+    // Disabled since this currently fails to correctly detect a lot of
+    // typescript prop type usage.
+    'react/no-unused-prop-types': ['off'],
 
     // We do not need proptypes since we're using typescript
     'react/prop-types': ['off'],
