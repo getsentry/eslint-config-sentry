@@ -20,7 +20,7 @@ module.exports = {
     fixable: 'code',
     schema: [], // no options
   },
-  create: function(context) {
+  create: function (context) {
     // variables should be defined here
 
     //----------------------------------------------------------------------
@@ -38,9 +38,7 @@ module.exports = {
         if (node.tag.type === 'MemberExpression' && node.tag.object.name === 'styled') {
           context.report({
             node,
-            message: `Do not use the shorthand/member expression style of styled. Use the function call syntax instead: styled(${
-              node.tag.property.name
-            }).`,
+            message: `Do not use the shorthand/member expression style of styled. Use the function call syntax instead: styled(${node.tag.property.name}).`,
 
             fix(fixer) {
               return [
