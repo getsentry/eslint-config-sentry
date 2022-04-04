@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/getsentry/eslint-config-sentry#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.14.0",
-    "@typescript-eslint/parser": "^5.14.0",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-config-sentry": "^1.87.0",
     "eslint-config-sentry-react": "^1.87.0",
@@ -38,9 +38,6 @@
     "eslint-plugin-react": "7.15.1",
     "eslint-plugin-sentry": "^1.87.0",
     "eslint-plugin-simple-import-sort": "^7.0.0"
-  },
-  "resolutions": {
-    "@typescript-eslint/experimental-utils": "^4.31.0"
   },
   "volta": {
     "node": "16.13.1",
