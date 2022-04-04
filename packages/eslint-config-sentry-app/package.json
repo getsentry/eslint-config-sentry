@@ -33,7 +33,7 @@
     "eslint-import-resolver-webpack": "^0.13.2",
     "eslint-plugin-emotion": "^10.0.27",
     "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jest": "22.17.0",
+    "eslint-plugin-jest": "26.1.3",
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-react": "7.15.1",
     "eslint-plugin-sentry": "^1.88.0",

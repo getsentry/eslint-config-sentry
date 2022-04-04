@@ -19,6 +19,20 @@ module.exports = {
     'getsentry/jsx-needs-il8n': ['off'],
     'testing-library/render-result-naming-convention': 'off',
     'testing-library/no-unnecessary-act': 'off',
+
+    // Disabled as we have many tests which render as simple validations
+    'jest/expect-expect': 'off',
+
+    // Disabled as we have some comment out tests that cannot be
+    // uncommented due to typescript errors.
+    'jest/no-commented-out-tests': 'off',
+
+    // Disabled as we do sometimes have conditional expects
+    'jest/no-conditional-expect': 'off',
+
+    // Useful for exporting some test utilities
+    'jest/no-export': 'off',
+
     'typescript-sort-keys/interface': [
       'error',
       'asc',
