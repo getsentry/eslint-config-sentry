@@ -234,10 +234,10 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-sentry@^1.76.0:
-  version "1.76.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-sentry/-/eslint-config-sentry-1.76.0.tgz#3ed18e277686dbb085c602c6d285fb583c24cfa7"
-  integrity sha512-6RNp6duS8NTwLhMS6uOKJSTzC3F7Re38x7D5mNHSTj7R1QFjL4iMHec86Ph64S7ogT7YRKfYW+1S0kOYWImMgw==
+eslint-config-sentry@^1.92.0:
+  version "1.92.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-sentry/-/eslint-config-sentry-1.92.0.tgz#04637d25e9b52679dbbeb74970f9eef1b481cff4"
+  integrity sha512-jLMMw2RnMIxyNngN2IYjjJBsOlnTt2LxeHIX4NreNXA+TDnOzz8qE8FFxyYPiUJrJAS9CGOXlbl9viVEYb9KDg==
 
 eslint-plugin-jest-dom@^4.0.1:
   version "4.0.1"
@@ -247,6 +247,11 @@ eslint-plugin-jest-dom@^4.0.1:
     "@babel/runtime" "^7.16.3"
     "@testing-library/dom" "^8.11.1"
     requireindex "^1.2.0"
+
+eslint-plugin-react-hooks@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.4.0.tgz#71c39e528764c848d8253e1aa2c7024ed505f6c4"
+  integrity sha512-U3RVIfdzJaeKDQKEJbz5p3NW8/L80PCATJAfuojwbaEL+gBjfGdhUcGde+WGUW46Q5sr/NgxevsIiDtNXrvZaQ==
 
 eslint-plugin-testing-library@^5.0.3:
   version "5.0.4"
