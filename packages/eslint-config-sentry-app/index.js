@@ -168,6 +168,11 @@ module.exports = {
             message:
               "'lightColors' and 'darkColors' exports intended for use in Storybook only. Instead, use theme prop from emotion or the useTheme hook.",
           },
+          {
+            name: 'sentry/styles/overflowEllipsis',
+            message:
+              "'overflowEllipsis' has been moved to the theme object. To use it, call ${p => p.theme.overflowEllipsis} inside any styled component template literal.",
+          },
         ],
       },
     ],
