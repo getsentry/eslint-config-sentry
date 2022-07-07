@@ -168,6 +168,12 @@ module.exports = {
             message:
               "'lightColors' and 'darkColors' exports intended for use in Storybook only. Instead, use theme prop from emotion or the useTheme hook.",
           },
+          {
+            name: "react-router",
+            importNames: ['withRouter'],
+            message:
+              "Use 'useLocation', 'useParams', 'useNavigate', 'useRoutes' from sentry/utils instead.",
+          },
         ],
       },
     ],
