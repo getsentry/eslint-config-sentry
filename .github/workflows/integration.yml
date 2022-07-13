@@ -16,7 +16,6 @@ jobs:
         with:
           repository: getsentry/sentry
           path: sentry
-          ref: disable-eslint-rule-withRouter
 
       - uses: actions/setup-node@v2
         with:
