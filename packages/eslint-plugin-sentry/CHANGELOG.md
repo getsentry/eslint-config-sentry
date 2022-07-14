@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.95.0 (2022-07-14)
+
+
+### Features
+
+* **rules:** Prevent imports of the withRouter HOC ([8b5f846](https://github.com/getsentry/eslint-config-sentry/commit/8b5f8460e38241b27f227aa867034bfb8d859aae))
+
+
+
+
+
 # 1.94.0 (2022-06-03)
 
 **Note:** Version bump only for package eslint-plugin-sentry
