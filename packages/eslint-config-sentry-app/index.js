@@ -197,7 +197,7 @@ module.exports = {
           ['^react', '^@?\\w'],
 
           // Test should be separate from the app
-          ['^(sentry-test)(/.*|$)'],
+          ['^(sentry-test|getsentry-test)(/.*|$)'],
 
           // Internal packages.
           ['^(sentry-locale|sentry-images)(/.*|$)'],
