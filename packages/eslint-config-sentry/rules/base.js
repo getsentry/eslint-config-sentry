@@ -78,7 +78,7 @@ module.exports = {
     'no-ex-assign': ['error'],
 
     // https://eslint.org/docs/rules/no-extra-boolean-cast
-    'no-extra-boolean-cast': ['off'],
+    'no-extra-boolean-cast': ['error'],
 
     // https://eslint.org/docs/rules/no-extra-semi
     'no-extra-semi': ['error'],
