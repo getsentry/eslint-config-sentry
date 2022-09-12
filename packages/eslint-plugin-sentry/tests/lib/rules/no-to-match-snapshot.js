@@ -35,6 +35,7 @@ ruleTester.run('no-to-match-snapshot', rule, {
   invalid: [
     {
       code: 'expect(wrapper).toMatchSnapshot()',
+      output: 'expect(wrapper).toSnapshot()',
       errors: [
         {
           message:
