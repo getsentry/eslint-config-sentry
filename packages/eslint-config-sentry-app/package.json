@@ -30,7 +30,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-sentry": "^1.99.0",
     "eslint-config-sentry-react": "^1.99.0",
-    "eslint-import-resolver-typescript": "^3.5.1",
+    "eslint-import-resolver-typescript": "^2.7.1",
     "eslint-import-resolver-webpack": "^0.13.2",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jest": "^27.0.4",
