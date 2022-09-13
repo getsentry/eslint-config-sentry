@@ -109,7 +109,7 @@ module.exports = {
     'react/no-unescaped-entities': ['off'],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unknown-property.md
-    'react/no-unknown-property': ['error'],
+    'react/no-unknown-property': ['error', {ignore: ['css']}],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-prop-types.md
     // Disabled since this currently fails to correctly detect a lot of

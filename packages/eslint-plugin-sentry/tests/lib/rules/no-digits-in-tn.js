@@ -34,6 +34,7 @@ ruleTester.run('no-digits-in-tn', rule, {
   invalid: [
     {
       code: "tn('%s project', '%d projects', 5)",
+      output: "tn('%s project', '%s projects', 5)",
       errors: [
         {
           message: `Do not use '%d' within 'tn()'. Use '%s' instead.`,

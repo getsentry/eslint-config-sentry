@@ -34,6 +34,7 @@ ruleTester.run('no-styled-shortcut', rule, {
   invalid: [
     {
       code: 'var Test = styled.div``;',
+      output: "var Test = styled('div')``;",
       errors: [
         {
           message:

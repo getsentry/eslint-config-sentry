@@ -8,29 +8,29 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
 
       - name: Checkout sentry repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: getsentry/sentry
           path: sentry
 
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
         with:
           cache: 'yarn'
           node-version: '16'
 
       - name: Setup Dependencies
-        run: yarn install
+        run: yarn install --frozen-lockfile
 
         # We add the package instead of linking here because we need to make
         # sure all dependencies are synced as well, which link will not do.
       - name: Install sentry dependencies
         run: |
           cd sentry
-          yarn install
+          yarn install --frozen-lockfile
           yarn add -D ../packages/eslint-config-sentry-app
 
       - name: Run lint in sentry
