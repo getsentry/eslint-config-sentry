@@ -8,7 +8,7 @@
 // Requirements
 //------------------------------------------------------------------------------
 
-var rule = require('../../../lib/rules/t-only-literal'),
+var rule = require('../../../lib/rules/no-dynamic-translations'),
   path = require('path'),
   RuleTester = require('eslint').RuleTester;
 
@@ -23,7 +23,7 @@ RuleTester.setDefaultConfig({
 });
 var ruleTester = new RuleTester();
 
-ruleTester.run('t-only-literal', rule, {
+ruleTester.run('no-dynmaic-translations', rule, {
   valid: [
     {code: "t('This is fine')"},
     {code: 't(`This is fine`)'},
