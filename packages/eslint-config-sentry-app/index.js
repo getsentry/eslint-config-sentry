@@ -225,6 +225,8 @@ module.exports = {
 
     'sentry/no-to-match-snapshot': ['error'],
 
+    'sentry/t-only-literal': ['error'],
+
     // Based on https://github.com/xojs/eslint-config-xo-typescript/blob/2a7e3b0b3c28b0c25866721298e67947a95767ab/index.js#L123
     '@typescript-eslint/ban-types': [
       'error',
