@@ -22,5 +22,9 @@
     "eslint": ">=5"
   },
   "homepage": "https://github.com/getsentry/eslint-config-sentry#readme",
-  "gitHead": "7ea9fe88aead7b4d6e86e5aeea1391a80fbb08d0"
+  "gitHead": "7ea9fe88aead7b4d6e86e5aeea1391a80fbb08d0",
+  "volta": {
+    "node": "16.13.1",
+    "yarn": "1.22.5"
+  }
 }
