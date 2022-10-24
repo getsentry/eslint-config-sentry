@@ -19,7 +19,7 @@
     "url": "https://github.com/getsentry/eslint-config-sentry/issues"
   },
   "peerDependencies": {
-    "eslint": ">=5",
+    "eslint": ">=8",
     "prettier": "1.x || 2.x"
   },
   "homepage": "https://github.com/getsentry/eslint-config-sentry#readme",
