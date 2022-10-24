@@ -20,9 +20,9 @@
   },
   "peerDependencies": {
     "eslint": ">=5",
-    "eslint-plugin-import": "~2.22.0",
-    "eslint-plugin-jest": "~22.17.0",
-    "eslint-plugin-react": "~7.15.1"
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^27.1.3",
+    "eslint-plugin-react": "^7.31.10"
   },
   "homepage": "https://github.com/getsentry/eslint-config-sentry#readme",
   "dependencies": {
