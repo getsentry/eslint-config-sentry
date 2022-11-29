@@ -174,6 +174,12 @@ module.exports = {
             message:
               "Use 'useLocation', 'useParams', 'useNavigate', 'useRoutes' from sentry/utils instead.",
           },
+          {
+            name: 'sentry/utils/withSentryRouter',
+            importNames: ['withSentryRouter'],
+            message:
+              "Use 'useLocation', 'useParams', 'useNavigate', 'useRoutes' from sentry/utils instead.",
+          },
         ],
       },
     ],
