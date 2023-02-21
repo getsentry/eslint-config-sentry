@@ -16,8 +16,8 @@
     "requireindex": "~1.2.0"
   },
   "devDependencies": {
-    "eslint": "^8.23.1",
-    "mocha": "^10.0.0"
+    "eslint": "^8.34.0",
+    "mocha": "^10.2.0"
   },
   "engines": {
     "node": ">=0.10.0"
