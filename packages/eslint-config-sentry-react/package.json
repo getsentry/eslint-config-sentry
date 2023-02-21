@@ -29,7 +29,7 @@
     "eslint-config-sentry": "^1.109.0",
     "eslint-plugin-jest-dom": "^4.0.3",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-testing-library": "^5.10.0",
+    "eslint-plugin-testing-library": "^5.10.2",
     "eslint-plugin-typescript-sort-keys": "^2.1.0"
   },
   "volta": {
