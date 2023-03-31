@@ -37,6 +37,7 @@ module.exports = {
     'react',
     'sentry',
     'simple-import-sort',
+    'no-lookahead-lookbehind-regexp',
   ],
 
   settings: {
@@ -276,6 +277,14 @@ module.exports = {
           '[[[]]]': "Don't use `[[[]]]`. Use `SomeType[][][]` instead.",
         },
       },
+    ],
+
+    // Don't allow lookbehind expressions in regexp as they crash safari
+    // We've accidentally used lookbehinds a few times and caused problems.
+    'no-lookahead-lookbehind-regexp/no-lookahead-lookbehind-regexp':  [
+      'error',
+      'no-lookbehind',
+      'no-negative-lookbehind',
     ],
   },
 
