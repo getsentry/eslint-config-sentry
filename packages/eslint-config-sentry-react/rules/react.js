@@ -148,5 +148,12 @@ module.exports = {
     // Consistent <Component booleanProp /> (never add ={true})
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
     'react/jsx-boolean-value': ['error', 'never'],
+
+    // Consistent function component declaration styles
+    // https://github.com/jsx-eslint/eslint-plugin-react/blob/master/docs/rules/function-component-definition.md
+    'react/function-component-definition': [
+      'error',
+      {namedComponents: 'function-declaration'},
+    ],
   },
 };
