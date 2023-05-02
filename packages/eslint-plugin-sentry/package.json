@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-sentry",
-  "version": "1.114.0",
+  "version": "1.115.0",
   "description": "sentry.io eslint plugin",
   "keywords": [
     "eslint",
