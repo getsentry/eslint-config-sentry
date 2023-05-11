@@ -125,6 +125,9 @@ module.exports = {
           // Packages. `react` related packages come first.
           ['^react', '^@?\\w'],
 
+          // Internal packages.
+          ['^(sentry-docs)(/.*|$)'],
+
           // Style imports.
           ['^.+\\.scss$'],
 
