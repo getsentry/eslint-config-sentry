@@ -280,9 +280,23 @@ module.exports = {
       },
     ],
 
+    // Naming convention enforcements
+    '@typescript-eslint/naming-convention': [
+      'error',
+      {
+        selector: 'typeLike',
+        format: ['PascalCase'],
+        leadingUnderscore: 'allow',
+      },
+      {
+        selector: 'enumMember',
+        format: ['UPPER_CASE'],
+      },
+    ],
+
     // Don't allow lookbehind expressions in regexp as they crash safari
     // We've accidentally used lookbehinds a few times and caused problems.
-    'no-lookahead-lookbehind-regexp/no-lookahead-lookbehind-regexp':  [
+    'no-lookahead-lookbehind-regexp/no-lookahead-lookbehind-regexp': [
       'error',
       'no-lookbehind',
       'no-negative-lookbehind',
