@@ -8,8 +8,9 @@
   "devDependencies": {
     "lerna": "3.20.2"
   },
+  "repository": "getsentry/eslint-config-sentry",
   "volta": {
-    "node": "16.13.1",
+    "node": "18.12.1",
     "yarn": "1.22.5"
   }
 }
