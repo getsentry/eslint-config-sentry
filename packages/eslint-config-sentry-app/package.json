@@ -24,24 +24,24 @@
   },
   "homepage": "https://github.com/getsentry/eslint-config-sentry#readme",
   "dependencies": {
-    "@emotion/eslint-plugin": "^11.10.0",
-    "@typescript-eslint/eslint-plugin": "^5.59.2",
-    "@typescript-eslint/parser": "^5.59.2",
+    "@emotion/eslint-plugin": "^11.11.0",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-config-sentry": "^1.118.0",
     "eslint-config-sentry-react": "^1.118.0",
     "eslint-import-resolver-typescript": "^2.7.1",
     "eslint-import-resolver-webpack": "^0.13.2",
     "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jest": "^27.2.1",
-    "eslint-plugin-no-lookahead-lookbehind-regexp": "0.1.0",
+    "eslint-plugin-jest": "^27.2.2",
+    "eslint-plugin-no-lookahead-lookbehind-regexp": "0.3.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-sentry": "^1.118.0",
     "eslint-plugin-simple-import-sort": "^10.0.0"
   },
   "volta": {
-    "node": "16.13.1",
+    "node": "18.12.1",
     "yarn": "1.22.5"
   },
   "publishConfig": {
