@@ -271,6 +271,9 @@ module.exports = {
     // https://eslint.org/docs/rules/require-await
     'require-await': ['error'],
 
+    // https://eslint.org/docs/rules/multiline-comment-style
+    'multiline-comment-style': ['error', 'separate-lines'],
+
     // https://eslint.org/docs/rules/spaced-comment
     'spaced-comment': [
       'error',
