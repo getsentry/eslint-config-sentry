@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.121.0 (2023-07-28)
+
+**Note:** Version bump only for package eslint-config-sentry-monorepo
+
+
+
+
+
 # 1.120.0 (2023-07-26)
 
 **Note:** Version bump only for package eslint-config-sentry-monorepo
