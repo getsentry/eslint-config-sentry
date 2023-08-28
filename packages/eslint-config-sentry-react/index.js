@@ -39,6 +39,22 @@ module.exports = {
       'asc',
       {caseSensitive: true, natural: false, requiredFirst: true},
     ],
+
+    // Disallow importing `import React from 'react'`. This is not needed since
+    // React 17. We prefer the named imports for potential tree-shaking gains
+    // in the future.
+    'no-restricted-imports': [
+      'error',
+      {
+        paths: [
+          {
+            name: 'react',
+            importNames: ['default'],
+            message: 'Prefer named React imports (React types DO NOT need imported!)',
+          },
+        ],
+      },
+    ],
   },
 
   /**
