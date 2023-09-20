@@ -231,8 +231,6 @@ module.exports = {
 
     'sentry/no-digits-in-tn': ['error'],
 
-    'sentry/no-to-match-snapshot': ['error'],
-
     'sentry/no-dynamic-translations': ['error'],
 
     // Based on https://github.com/xojs/eslint-config-xo-typescript/blob/2a7e3b0b3c28b0c25866721298e67947a95767ab/index.js#L123
