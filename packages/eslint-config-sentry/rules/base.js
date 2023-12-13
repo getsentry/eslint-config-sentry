@@ -134,7 +134,7 @@ module.exports = {
     ],
 
     // https://eslint.org/docs/rules/eqeqeq
-    eqeqeq: ['error'],
+    eqeqeq: 'off',
 
     // https://eslint.org/docs/rules/guard-for-in [REVISIT ME]
     'guard-for-in': ['off'],
@@ -149,7 +149,7 @@ module.exports = {
     'no-else-return': ['off'],
 
     // https://eslint.org/docs/rules/no-eq-null
-    'no-eq-null': ['error'],
+    'no-eq-null': 'off',
 
     // https://eslint.org/docs/rules/no-eval
     'no-eval': ['error'],
