@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.128.0 (2023-12-19)
+
+
+### Features
+
+* remove prettier and add rome as dev-deps ([#194](https://github.com/getsentry/eslint-config-sentry/issues/194)) ([f91fac4](https://github.com/getsentry/eslint-config-sentry/commit/f91fac49a5b1d1f0b6f668dc4d53c564368ff650))
+
+
+
+
+
 # 1.127.0 (2023-12-13)
 
 **Note:** Version bump only for package eslint-config-sentry
