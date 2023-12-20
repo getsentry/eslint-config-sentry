@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.129.0 (2023-12-20)
+
+
+### Bug Fixes
+
+* remove style related rules ([#196](https://github.com/getsentry/eslint-config-sentry/issues/196)) ([afc1739](https://github.com/getsentry/eslint-config-sentry/commit/afc17391f7625c7a57fcd5fb3f5caf33fc96369f))
+
+
+
+
+
 # 1.128.0 (2023-12-19)
 
 
