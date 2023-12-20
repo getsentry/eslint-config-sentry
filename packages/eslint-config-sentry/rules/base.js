@@ -139,9 +139,6 @@ module.exports = {
     // https://eslint.org/docs/rules/guard-for-in [REVISIT ME]
     'guard-for-in': ['off'],
 
-    // https://eslint.org/docs/rules/jsx-quotes
-    'jsx-quotes': ['error', 'prefer-double'],
-
     // https://eslint.org/docs/rules/no-caller
     'no-caller': ['error'],
 
@@ -222,15 +219,6 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-with
     'no-with': ['error'],
-
-    // https://eslint.org/docs/rules/quotes.html
-    quotes: [
-      'error',
-      'single',
-      {
-        avoidEscape: true,
-      },
-    ],
 
     // https://eslint.org/docs/rules/radix
     radix: ['error'],
