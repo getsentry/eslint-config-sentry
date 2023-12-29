@@ -24,7 +24,11 @@
   "homepage": "https://github.com/getsentry/eslint-config-sentry#readme",
   "gitHead": "7ea9fe88aead7b4d6e86e5aeea1391a80fbb08d0",
   "volta": {
-    "node": "18.12.1",
+    "node": "20.10.0",
     "yarn": "1.22.5"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "@typescript-eslint/parser": "^6.16.0"
   }
 }

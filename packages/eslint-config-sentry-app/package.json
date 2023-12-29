@@ -24,8 +24,8 @@
   "homepage": "https://github.com/getsentry/eslint-config-sentry#readme",
   "dependencies": {
     "@emotion/eslint-plugin": "^11.11.0",
-    "@typescript-eslint/eslint-plugin": "^6.14.0",
-    "@typescript-eslint/parser": "^6.14.0",
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "@typescript-eslint/parser": "^6.16.0",
     "eslint-config-sentry": "^1.129.0",
     "eslint-config-sentry-react": "^1.129.0",
     "eslint-import-resolver-typescript": "^2.7.1",
@@ -38,7 +38,7 @@
     "eslint-plugin-simple-import-sort": "^10.0.0"
   },
   "volta": {
-    "node": "18.12.1",
+    "node": "20.10.0",
     "yarn": "1.22.5"
   },
   "publishConfig": {
