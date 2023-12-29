@@ -13,7 +13,7 @@
   },
   "repository": "getsentry/eslint-config-sentry",
   "volta": {
-    "node": "18.12.1",
+    "node": "20.10.0",
     "yarn": "1.22.5"
   }
 }
