@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sentry",
-  "version": "1.129.0",
+  "version": "1.130.0",
   "description": "sentry.io eslint config",
   "main": "index.js",
   "scripts": {},
@@ -26,6 +26,5 @@
   "volta": {
     "node": "20.10.0",
     "yarn": "1.22.5"
-  },
-  "dependencies": {}
+  }
 }
