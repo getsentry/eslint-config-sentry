@@ -26,8 +26,6 @@
   },
   "homepage": "https://github.com/getsentry/eslint-config-sentry#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^6.16.0",
-    "@typescript-eslint/parser": "^6.16.0",
     "eslint-config-sentry": "^1.129.0",
     "eslint-plugin-jest-dom": "^5.1.0",
     "eslint-plugin-react-hooks": "^4.6.0",
