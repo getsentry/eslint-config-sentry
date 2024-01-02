@@ -5,9 +5,7 @@
 module.exports = {
   settings: {
     react: {
-      createClass: 'createReactClass', // Regex for Component Factory to use, default to "createReactClass"
-      pragma: 'React', // Pragma to use, default to "React"
-      version: '16.7.0', // React version, can not `detect` because of getsentry
+      version: '17.0.2', // React version, can not `detect` because of getsentry
     },
   },
   rules: {
