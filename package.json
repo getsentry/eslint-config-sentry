@@ -3,14 +3,17 @@
   "private": true,
   "scripts": {
     "test": "yarn lerna run test",
+    "test:lint": "biome check .",
+    "fix:lint": "biome check . --apply",
     "release": "yarn lerna exec -- yarn && yarn lerna version minor --conventional-commits"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.4.1",
     "lerna": "3.20.2"
   },
   "repository": "getsentry/eslint-config-sentry",
   "volta": {
-    "node": "18.12.1",
+    "node": "20.10.0",
     "yarn": "1.22.5"
   }
 }

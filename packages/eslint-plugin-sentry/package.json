@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-sentry",
-  "version": "1.127.0",
+  "version": "1.130.0",
   "description": "sentry.io eslint plugin",
   "keywords": [
     "eslint",
@@ -24,7 +24,7 @@
   },
   "license": "ISC",
   "volta": {
-    "node": "18.12.1",
+    "node": "20.10.0",
     "yarn": "1.22.5"
   }
 }

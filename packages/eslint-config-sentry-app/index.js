@@ -1,14 +1,6 @@
 // Default: sentry app
 module.exports = {
-  extends: [
-    'sentry-react',
-
-    // These prettier plugins need to be last so they can override plugin rules
-    // See https://github.com/prettier/eslint-config-prettier/blob/master/README.md#installation
-    // for plugin exclusions
-    'plugin:prettier/recommended',
-    'plugin:import/typescript',
-  ],
+  extends: ['sentry-react', 'plugin:import/typescript'],
 
   parser: '@typescript-eslint/parser',
 
@@ -34,7 +26,6 @@ module.exports = {
     '@typescript-eslint',
     '@emotion',
     'import',
-    'prettier',
     'react',
     'sentry',
     'simple-import-sort',
@@ -70,12 +61,6 @@ module.exports = {
     // A downside is that we won't get eslint errors about it, but your editors should
     // support tsc errors so....
     'no-undef': 'off',
-
-    // Override prettier's configuration of this rule
-    curly: ['error'],
-
-    // Override prettier's configuration of this rule
-    'arrow-body-style': 'off',
 
     /**
      * Need to use typescript version of these rules
