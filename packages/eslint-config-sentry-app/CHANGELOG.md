@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.132.0 (2024-01-02)
+
+
+### Features
+
+* Update react version to 17 ([#195](https://github.com/getsentry/eslint-config-sentry/issues/195)) ([ca077a7](https://github.com/getsentry/eslint-config-sentry/commit/ca077a715222d9c01171b160b077424ce982173b))
+
+
+
+
+
 # 1.131.0 (2024-01-02)
 
 **Note:** Version bump only for package eslint-config-sentry-app
