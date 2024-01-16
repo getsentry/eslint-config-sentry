@@ -60,6 +60,9 @@ module.exports = {
     // support tsc errors so....
     'no-undef': 'off',
 
+    // Let formatter handle this
+    'arrow-body-style': 'off',
+
     /**
      * Need to use typescript version of these rules
      */
