@@ -8,7 +8,7 @@
     "release": "yarn lerna exec -- yarn && yarn lerna version minor --conventional-commits"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.4.1",
+    "@biomejs/biome": "^1.5.2",
     "lerna": "3.20.2"
   },
   "repository": "getsentry/eslint-config-sentry",
