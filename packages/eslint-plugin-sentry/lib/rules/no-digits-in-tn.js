@@ -34,7 +34,7 @@ module.exports = {
     return {
       CallExpression(node) {
         if (node.callee.name === 'tn') {
-          node.arguments.forEach(argument => {
+          node.arguments.forEach((argument) => {
             if (
               argument.value &&
               argument.value.includes &&

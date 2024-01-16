@@ -244,6 +244,9 @@ module.exports = {
     // https://eslint.org/docs/rules/wrap-iife
     'wrap-iife': ['error', 'any'],
 
+    // https://eslint.org/docs/rules/arrow-body-style
+    'arrow-body-style': ['error', 'as-needed'],
+
     // https://eslint.org/docs/rules/array-callback-return
     'array-callback-return': ['error'],
 
