@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sentry-docs",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "sentry.io eslint config",
   "main": "index.js",
   "scripts": {},
@@ -26,8 +26,8 @@
     "@emotion/eslint-plugin": "^11.11.0",
     "@typescript-eslint/eslint-plugin": "^6.19.0",
     "@typescript-eslint/parser": "^6.19.0",
-    "eslint-config-sentry": "^2.0.0",
-    "eslint-config-sentry-react": "^2.0.0",
+    "eslint-config-sentry": "^2.1.0",
+    "eslint-config-sentry-react": "^2.1.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-import-resolver-webpack": "^0.13.8",
     "eslint-plugin-import": "^2.29.1",
