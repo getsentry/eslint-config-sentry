@@ -15,7 +15,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           cache: 'yarn'
-          node-version: '18'
+          node-version: '20'
       - run: yarn install --frozen-lockfile
       - run: yarn lerna bootstrap
       - run: yarn test:lint

@@ -13,7 +13,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           cache: 'yarn'
-          node-version: '18'
+          node-version: '20'
           registry-url: https://registry.npmjs.org/
       - name: Install Depdendencies
         run: |
@@ -28,6 +28,6 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "<>"
-          yarn lerna publish major -y --force-publish=* --conventional-commits
+          yarn lerna publish minor -y --force-publish=* --conventional-commits
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
