@@ -9,7 +9,7 @@ module.exports = {
     'plugin:jest-dom/recommended',
   ],
 
-  plugins: ['jest-dom', 'testing-library', 'typescript-sort-keys'],
+  plugins: ['jest-dom', 'testing-library', 'typescript-sort-keys', 'react-hooks'],
 
   rules: {
     /**
