@@ -39,19 +39,12 @@ module.exports = {
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-undef.md
     'react/jsx-no-undef': ['error'],
 
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-duplicate-props.md
-    'react/jsx-no-duplicate-props': ['error'],
-
     // Disabled as we use the newer JSX transform babel plugin.
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
     'react/jsx-uses-react': ['off'],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-vars.md
     'react/jsx-uses-vars': ['error'],
-
-    // Prevent usage of unsafe target='_blank'
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-target-blank.md
-    'react/jsx-no-target-blank': ['error'],
 
     /**
      * Deprecation related rules
@@ -138,10 +131,6 @@ module.exports = {
     // Disabled because of prettier
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/wrap-multilines.md
     'react/jsx-wrap-multilines': ['off'],
-
-    // Disallow redundant curly braces in attributes arond literal strings.
-    // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-brace-presence.md
-    'react/jsx-curly-brace-presence': ['error', {props: 'never', children: 'ignore'}],
 
     // Consistent <Component booleanProp /> (never add ={true})
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md

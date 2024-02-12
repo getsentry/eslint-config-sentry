@@ -5,7 +5,6 @@ module.exports = {
 
   rules: {
     'no-console': ['error'],
-    'no-debugger': ['error'],
 
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-is-mounted.md
     'react/no-is-mounted': ['error'],
