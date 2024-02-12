@@ -7,12 +7,16 @@ module.exports = {
     'plugin:jest/recommended',
     'sentry-react/rules/jest',
     'plugin:jest-dom/recommended',
-    'plugin:react-hooks/recommended',
   ],
 
   plugins: ['jest-dom', 'testing-library', 'typescript-sort-keys'],
 
   rules: {
+    /**
+     * React hooks
+     */
+    'react-hooks/exhaustive-deps': 'error',
+
     /**
      * Custom
      */

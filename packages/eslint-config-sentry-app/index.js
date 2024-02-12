@@ -71,9 +71,6 @@ module.exports = {
     'no-shadow': 'off',
     '@typescript-eslint/no-shadow': 'error',
 
-    'no-redeclare': 'off',
-    '@typescript-eslint/no-redeclare': 'error',
-
     // This only override the `args` rule (which is "none"). There are too many errors and it's difficult to manually
     // fix them all, so we'll have to incrementally update.
     'no-unused-vars': 'off',

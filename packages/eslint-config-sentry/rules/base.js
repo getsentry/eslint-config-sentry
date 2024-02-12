@@ -8,11 +8,6 @@ module.exports = {
     strict: ['error', 'global'],
 
     /**
-     * ES6
-     */
-    // See ./es6.js
-
-    /**
      * Variables
      */
     // https://eslint.org/docs/rules/no-shadow
@@ -47,29 +42,17 @@ module.exports = {
     /**
      * Possible errors
      */
-    // https://eslint.org/docs/rules/comma-dangle
-    'comma-dangle': ['off', 'always-multiline'],
-
     // https://eslint.org/docs/rules/no-cond-assign
     'no-cond-assign': ['error', 'always'],
 
     // https://eslint.org/docs/rules/no-console
     'no-console': ['warn'],
 
-    // https://eslint.org/docs/rules/no-debugger
-    'no-debugger': ['warn'],
-
     // https://eslint.org/docs/rules/no-alert
     'no-alert': ['error'],
 
     // https://eslint.org/docs/rules/no-constant-condition
     'no-constant-condition': ['warn'],
-
-    // https://eslint.org/docs/rules/no-dupe-keys
-    'no-dupe-keys': ['error'],
-
-    // https://eslint.org/docs/rules/no-duplicate-case
-    'no-duplicate-case': ['error'],
 
     // https://eslint.org/docs/rules/no-empty
     'no-empty': ['error'],
@@ -79,9 +62,6 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-extra-boolean-cast
     'no-extra-boolean-cast': ['error'],
-
-    // https://eslint.org/docs/rules/no-extra-semi
-    'no-extra-semi': ['error'],
 
     // https://eslint.org/docs/rules/no-func-assign
     'no-func-assign': ['error'],
@@ -101,15 +81,6 @@ module.exports = {
     // https://eslint.org/docs/rules/no-sparse-arrays
     'no-sparse-arrays': ['error'],
 
-    // https://eslint.org/docs/rules/no-unreachable
-    'no-unreachable': ['error'],
-
-    // https://eslint.org/docs/rules/semi.html
-    semi: ['error', 'always'],
-
-    // https://eslint.org/docs/rules/use-isnan
-    'use-isnan': ['error'],
-
     // https://eslint.org/docs/rules/block-scoped-var
     'block-scoped-var': ['error'],
 
@@ -118,9 +89,6 @@ module.exports = {
      */
     // https://eslint.org/docs/rules/consistent-return
     'consistent-return': ['error'],
-
-    // https://eslint.org/docs/rules/curly
-    curly: ['error'],
 
     // https://eslint.org/docs/rules/default-case
     'default-case': ['error'],
@@ -133,9 +101,6 @@ module.exports = {
       },
     ],
 
-    // https://eslint.org/docs/rules/eqeqeq
-    eqeqeq: ['error'],
-
     // https://eslint.org/docs/rules/guard-for-in [REVISIT ME]
     'guard-for-in': ['off'],
 
@@ -144,9 +109,6 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-else-return [REVISIT ME]
     'no-else-return': ['off'],
-
-    // https://eslint.org/docs/rules/no-eq-null
-    'no-eq-null': ['error'],
 
     // https://eslint.org/docs/rules/no-eval
     'no-eval': ['error'],
@@ -198,9 +160,6 @@ module.exports = {
 
     // https://eslint.org/docs/rules/no-proto
     'no-proto': ['error'],
-
-    // https://eslint.org/docs/rules/no-redeclare
-    'no-redeclare': ['error'],
 
     // https://eslint.org/docs/rules/no-return-assign
     'no-return-assign': ['error'],
