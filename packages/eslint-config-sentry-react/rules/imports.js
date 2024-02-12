@@ -5,35 +5,19 @@
 
 module.exports = {
   rules: {
-    // ensure imports point to files/modules that can be resolved
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md
-    'import/no-unresolved': ['error', {commonjs: true, caseSensitive: true}],
-
-    // ensure named imports coupled with named exports
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/named.md#when-not-to-use-it
-    'import/named': ['error'],
-
-    // ensure default import coupled with default export
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/default.md#when-not-to-use-it
-    'import/default': ['error'],
-
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/namespace.md
-    'import/namespace': ['off'],
-
-    // disallow invalid exports, e.g. multiple defaults
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/export.md
-    'import/export': ['error'],
+    // Not recommended to be enabled with typescript-eslint
+    // https://typescript-eslint.io/linting/troubleshooting/performance-troubleshooting/#eslint-plugin-import
+    'import/no-unresolved': ['off'],
+    'import/named': ['off'],
+    'import/default': ['off'],
+    'import/export': ['off'],
+    'import/no-named-as-default-member': ['off'],
 
     // Redflags
     // do not allow a default import name to match a named export (airbnb: error)
     // Issue with `DefaultIssuePlugin` and `app/plugins/index`
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default.md
     'import/no-named-as-default': ['off'],
-
-    // warn on accessing default export property names that are also named exports (airbnb: error)
-    // This cannot be abled because of how `utils` is exported, as well as how it used in getsentry
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default-member.md
-    'import/no-named-as-default-member': ['off'],
 
     // disallow use of jsdoc-marked-deprecated imports
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-deprecated.md
