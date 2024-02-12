@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.3.0 (2024-02-12)
+
+
+### Bug Fixes
+
+* add missing react-hooks plugin ([#201](https://github.com/getsentry/eslint-config-sentry/issues/201)) ([087a3ba](https://github.com/getsentry/eslint-config-sentry/commit/087a3bac987c5f483c65dc73f736f4b27bf2f790))
+
+
+
+
+
 # 2.2.0 (2024-02-12)
 
 
