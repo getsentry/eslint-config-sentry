@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.2.0 (2024-02-12)
+
+
+### Features
+
+* remove unnecessary linting rules ([#200](https://github.com/getsentry/eslint-config-sentry/issues/200)) ([24d7208](https://github.com/getsentry/eslint-config-sentry/commit/24d720842939eb18548bcab2ff99027738c03cb5))
+
+
+
+
+
 # 2.1.0 (2024-01-16)
 
 **Note:** Version bump only for package eslint-config-sentry
