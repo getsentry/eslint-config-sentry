@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.4.0 (2024-02-13)
+
+
+### Performance Improvements
+
+* get rid of `eslint-plugin-import` rules ([#202](https://github.com/getsentry/eslint-config-sentry/issues/202)) ([f7127db](https://github.com/getsentry/eslint-config-sentry/commit/f7127db2ad6449a05f7d14b6b43a7761312bc128))
+
+
+
+
+
 # 2.3.0 (2024-02-12)
 
 
