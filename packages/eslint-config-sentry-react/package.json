@@ -8,11 +8,7 @@
     "type": "git",
     "url": "git+https://github.com/getsentry/eslint-config-sentry.git"
   },
-  "keywords": [
-    "eslint",
-    "eslint-config",
-    "sentry"
-  ],
+  "keywords": ["eslint", "eslint-config", "sentry"],
   "author": "Billy Vong <billy@sentry.io>",
   "license": "BSD-2-Clause",
   "bugs": {
@@ -27,10 +23,10 @@
   "homepage": "https://github.com/getsentry/eslint-config-sentry#readme",
   "dependencies": {
     "eslint-config-sentry": "^2.5.0",
-    "eslint-plugin-jest-dom": "^5.1.0",
+    "eslint-plugin-jest-dom": "^5.2.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-testing-library": "^6.2.0",
-    "eslint-plugin-typescript-sort-keys": "^3.1.0"
+    "eslint-plugin-typescript-sort-keys": "^3.2.0"
   },
   "volta": {
     "node": "20.10.0",

@@ -2,11 +2,7 @@
   "name": "eslint-plugin-sentry",
   "version": "2.5.0",
   "description": "sentry.io eslint plugin",
-  "keywords": [
-    "eslint",
-    "eslintplugin",
-    "eslint-plugin"
-  ],
+  "keywords": ["eslint", "eslintplugin", "eslint-plugin"],
   "author": "billy vong",
   "main": "lib/index.js",
   "scripts": {
@@ -16,8 +12,8 @@
     "requireindex": "~1.2.0"
   },
   "devDependencies": {
-    "eslint": "^8.56.0",
-    "mocha": "^10.2.0"
+    "eslint": "^8.57.0",
+    "mocha": "^10.4.0"
   },
   "engines": {
     "node": ">=0.10.0"
