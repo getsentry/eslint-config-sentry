@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.6.0 (2024-04-08)
+
+
+### Features
+
+* upgrade dep, unblock typescript 5.4 ([#204](https://github.com/getsentry/eslint-config-sentry/issues/204)) ([f34371a](https://github.com/getsentry/eslint-config-sentry/commit/f34371a31d99a953c4849522e15d81b741f84537))
+
+
+
+
+
 # 2.5.0 (2024-02-13)
 
 **Note:** Version bump only for package eslint-config-sentry-app

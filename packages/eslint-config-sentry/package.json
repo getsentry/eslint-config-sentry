@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sentry",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "description": "sentry.io eslint config",
   "main": "index.js",
   "scripts": {},
@@ -8,7 +8,11 @@
     "type": "git",
     "url": "git+https://github.com/getsentry/eslint-config-sentry.git"
   },
-  "keywords": ["eslint", "eslint-config", "sentry"],
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "sentry"
+  ],
   "author": "Billy Vong <billy@sentry.io>",
   "license": "BSD-2-Clause",
   "bugs": {

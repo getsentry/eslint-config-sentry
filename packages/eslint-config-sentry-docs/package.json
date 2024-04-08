@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sentry-docs",
-  "version": "2.5.0",
+  "version": "2.6.0",
   "description": "sentry.io eslint config",
   "main": "index.js",
   "scripts": {},
@@ -8,7 +8,11 @@
     "type": "git",
     "url": "git+https://github.com/getsentry/eslint-config-sentry.git"
   },
-  "keywords": ["eslint", "eslint-config", "sentry"],
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "sentry"
+  ],
   "author": "Billy Vong <billy@sentry.io>",
   "license": "BSD-2-Clause",
   "bugs": {
@@ -22,8 +26,8 @@
     "@emotion/eslint-plugin": "^11.11.0",
     "@typescript-eslint/eslint-plugin": "^6.19.0",
     "@typescript-eslint/parser": "^6.19.0",
-    "eslint-config-sentry": "^2.5.0",
-    "eslint-config-sentry-react": "^2.5.0",
+    "eslint-config-sentry": "^2.6.0",
+    "eslint-config-sentry-react": "^2.6.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-import-resolver-webpack": "^0.13.8",
     "eslint-plugin-import": "^2.29.1",
