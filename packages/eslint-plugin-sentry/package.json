@@ -2,11 +2,7 @@
   "name": "eslint-plugin-sentry",
   "version": "2.5.0",
   "description": "sentry.io eslint plugin",
-  "keywords": [
-    "eslint",
-    "eslintplugin",
-    "eslint-plugin"
-  ],
+  "keywords": ["eslint", "eslintplugin", "eslint-plugin"],
   "author": "billy vong",
   "main": "lib/index.js",
   "scripts": {
