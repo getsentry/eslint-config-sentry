@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.7.0 (2024-04-09)
+
+
+### Features
+
+* Remove webpack resolver ([#205](https://github.com/getsentry/eslint-config-sentry/issues/205)) ([f49389c](https://github.com/getsentry/eslint-config-sentry/commit/f49389c6c319ea4613a88b598456fd811ae910b5))
+
+
+
+
+
 # 2.6.0 (2024-04-08)
 
 
