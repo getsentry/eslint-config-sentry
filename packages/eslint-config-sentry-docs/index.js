@@ -36,7 +36,6 @@ module.exports = {
     },
     'import/resolver': {
       typescript: {},
-      webpack: {},
     },
     'import/extensions': ['.js', '.jsx'],
   },
