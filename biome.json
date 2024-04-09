@@ -20,7 +20,7 @@
     "indentStyle": "space",
     "indentWidth": 2,
     "lineWidth": 90,
-    "ignore": []
+    "ignore": ["*/package.json", "lerna.json"]
   },
   "javascript": {
     "formatter": {
