@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.8.0 (2024-06-27)
+
+
+### Features
+
+* upgrade eslint-typescript, other dependencies ([60e0423](https://github.com/getsentry/eslint-config-sentry/commit/60e0423bcca6c7aa1154108634bd9277acc84378))
+
+
+
+
+
 # 2.7.0 (2024-04-09)
 
 
