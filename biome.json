@@ -27,7 +27,7 @@
       "enabled": true,
       "quoteStyle": "single",
       "arrowParentheses": "asNeeded",
-      "trailingComma": "es5",
+      "trailingCommas": "es5",
       "lineEnding": "lf",
       "bracketSpacing": false,
       "bracketSameLine": false,
