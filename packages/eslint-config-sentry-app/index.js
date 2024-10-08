@@ -239,7 +239,8 @@ module.exports = {
         },
       },
     ],
-    '@typescript-eslint/no-empty-object-type': 'error',
+    // TODO(scttcper): Turn no-empty-object-type on to make our types more strict
+    // '@typescript-eslint/no-empty-object-type': 'error',
     // TODO(scttcper): Turn no-function on to make our types more strict
     // '@typescript-eslint/no-unsafe-function-type': 'error',
     '@typescript-eslint/no-wrapper-object-types': 'error',
