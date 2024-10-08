@@ -228,16 +228,16 @@ module.exports = {
           //   fixWith: 'Record<string, unknown>'
           // },
           Buffer: {
-            message: 'Use Uint8Array instead. See: https://sindresorhus.com/blog/goodbye-nodejs-buffer',
-            suggest: [
-              'Uint8Array'
-            ]
+            message:
+              'Use Uint8Array instead. See: https://sindresorhus.com/blog/goodbye-nodejs-buffer',
+            suggest: ['Uint8Array'],
           },
-          '[]': 'Don\'t use the empty array type `[]`. It only allows empty arrays. Use `SomeType[]` instead.',
-          '[[]]': 'Don\'t use `[[]]`. It only allows an array with a single element which is an empty array. Use `SomeType[][]` instead.',
-          '[[[]]]': 'Don\'t use `[[[]]]`. Use `SomeType[][][]` instead.',
-        }
-      }
+          '[]': "Don't use the empty array type `[]`. It only allows empty arrays. Use `SomeType[]` instead.",
+          '[[]]':
+            "Don't use `[[]]`. It only allows an array with a single element which is an empty array. Use `SomeType[][]` instead.",
+          '[[[]]]': "Don't use `[[[]]]`. Use `SomeType[][][]` instead.",
+        },
+      },
     ],
     '@typescript-eslint/no-empty-object-type': 'error',
     // TODO(scttcper): Turn no-function on to make our types more strict
