@@ -38,4 +38,4 @@ jobs:
           SENTRY_ESLINT_RELAXED: 1
         run: |
           cd sentry
-          yarn lint
+          yarn lint:prettier && yarn lint:js && yarn lint:css
