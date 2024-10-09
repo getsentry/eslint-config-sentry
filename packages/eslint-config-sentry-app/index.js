@@ -86,6 +86,9 @@ module.exports = {
         //
         varsIgnorePattern: '^_',
         argsIgnorePattern: '^_',
+        argsIgnorePattern: '^_',
+        destructuredArrayIgnorePattern: '^_',
+        caughtErrorsIgnorePattern: '^_',
       },
     ],
 
