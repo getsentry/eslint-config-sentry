@@ -78,6 +78,9 @@ module.exports = {
       {
         vars: 'all',
         args: 'all',
+        // TODO(scttcper): We could enable this to enforce catch (error)
+        // https://eslint.org/docs/latest/rules/no-unused-vars#caughterrors
+        caughtErrors: 'none',
 
         // Ignore vars that start with an underscore
         // e.g. if you want to omit a property using object spread:
@@ -88,7 +91,6 @@ module.exports = {
         argsIgnorePattern: '^_',
         argsIgnorePattern: '^_',
         destructuredArrayIgnorePattern: '^_',
-        caughtErrorsIgnorePattern: '^_',
       },
     ],
 
