@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.9.0 (2024-10-10)
+
+
+### Features
+
+* Upgrade various packages ([#208](https://github.com/getsentry/eslint-config-sentry/issues/208)) ([5cdbe25](https://github.com/getsentry/eslint-config-sentry/commit/5cdbe257332d7c184d732e3003ece19adc781cbe))
+
+
+
+
+
 # 2.8.0 (2024-06-27)
 
 
