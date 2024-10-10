@@ -78,6 +78,9 @@ module.exports = {
       {
         vars: 'all',
         args: 'all',
+        // TODO(scttcper): We could enable this to enforce catch (error)
+        // https://eslint.org/docs/latest/rules/no-unused-vars#caughterrors
+        caughtErrors: 'none',
 
         // Ignore vars that start with an underscore
         // e.g. if you want to omit a property using object spread:
@@ -86,6 +89,8 @@ module.exports = {
         //
         varsIgnorePattern: '^_',
         argsIgnorePattern: '^_',
+        argsIgnorePattern: '^_',
+        destructuredArrayIgnorePattern: '^_',
       },
     ],
 
@@ -217,43 +222,21 @@ module.exports = {
 
     'sentry/no-dynamic-translations': ['error'],
 
-    // Based on https://github.com/xojs/eslint-config-xo-typescript/blob/2a7e3b0b3c28b0c25866721298e67947a95767ab/index.js#L123
-    '@typescript-eslint/ban-types': [
+    // https://github.com/xojs/eslint-config-xo-typescript/blob/9791a067d6a119a21a4db72c02f1da95e25ffbb6/index.js#L95
+    '@typescript-eslint/no-restricted-types': [
       'error',
       {
-        extendDefaults: false,
         types: {
-          String: {
-            message: 'Use `string` instead.',
-            fixWith: 'string',
-          },
-          Number: {
-            message: 'Use `number` instead.',
-            fixWith: 'number',
-          },
-          Boolean: {
-            message: 'Use `boolean` instead.',
-            fixWith: 'boolean',
-          },
-          Symbol: {
-            message: 'Use `symbol` instead.',
-            fixWith: 'symbol',
-          },
-          BigInt: {
-            message: 'Use `bigint` instead.',
-            fixWith: 'bigint',
-          },
-          Object: {
-            message:
-              'The `Object` type is mostly the same as `unknown`. You probably want `Record<string, unknown>` instead. See https://github.com/typescript-eslint/typescript-eslint/pull/848',
-            fixWith: 'Record<string, unknown>',
-          },
-          // TODO(scttcper): Turn these on to make our types more strict
+          // TODO(scttcper): Turn object on to make our types more strict
           // object: {
-          // 	message: 'The `object` type is hard to use. Use `Record<string, unknown>` instead. See: https://github.com/typescript-eslint/typescript-eslint/pull/848',
-          // 	fixWith: 'Record<string, unknown>'
+          //   message: 'The `object` type is hard to use. Use `Record<string, unknown>` instead. See: https://github.com/typescript-eslint/typescript-eslint/pull/848',
+          //   fixWith: 'Record<string, unknown>'
           // },
-          // Function: 'Use a specific function type instead, like `() => void`.',
+          Buffer: {
+            message:
+              'Use Uint8Array instead. See: https://sindresorhus.com/blog/goodbye-nodejs-buffer',
+            suggest: ['Uint8Array'],
+          },
           '[]': "Don't use the empty array type `[]`. It only allows empty arrays. Use `SomeType[]` instead.",
           '[[]]':
             "Don't use `[[]]`. It only allows an array with a single element which is an empty array. Use `SomeType[][]` instead.",
@@ -261,6 +244,11 @@ module.exports = {
         },
       },
     ],
+    // TODO(scttcper): Turn no-empty-object-type on to make our types more strict
+    // '@typescript-eslint/no-empty-object-type': 'error',
+    // TODO(scttcper): Turn no-function on to make our types more strict
+    // '@typescript-eslint/no-unsafe-function-type': 'error',
+    '@typescript-eslint/no-wrapper-object-types': 'error',
 
     // Naming convention enforcements
     '@typescript-eslint/naming-convention': [
