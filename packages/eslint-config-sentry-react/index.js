@@ -16,6 +16,8 @@ module.exports = {
      * React hooks
      */
     'react-hooks/exhaustive-deps': 'error',
+    // Biome not yet enforcing all parts of this rule https://github.com/biomejs/biome/issues/1984
+    'react-hooks/rules-of-hooks': 'error',
 
     /**
      * Custom
