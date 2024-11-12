@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.10.0 (2024-11-12)
+
+
+### Features
+
+* Add back rules of hooks ([#209](https://github.com/getsentry/eslint-config-sentry/issues/209)) ([e3121c1](https://github.com/getsentry/eslint-config-sentry/commit/e3121c1a1a2b1b7d1045b051e433f373b0f0eca8))
+
+
+
+
+
 # 2.9.0 (2024-10-10)
 
 

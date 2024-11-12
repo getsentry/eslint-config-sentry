@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sentry-react",
-  "version": "2.9.0",
+  "version": "2.10.0",
   "description": "sentry.io eslint config",
   "main": "index.js",
   "scripts": {},
@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/getsentry/eslint-config-sentry#readme",
   "dependencies": {
-    "eslint-config-sentry": "^2.9.0",
+    "eslint-config-sentry": "^2.10.0",
     "eslint-plugin-jest-dom": "^5.4.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-testing-library": "^6.3.0",
