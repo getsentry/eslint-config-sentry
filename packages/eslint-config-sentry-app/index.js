@@ -1,6 +1,6 @@
 // Default: sentry app
 module.exports = {
-  extends: ['sentry-react', 'plugin:import/typescript'],
+  extends: ['sentry-react', 'plugin:import-x/typescript'],
 
   parser: '@typescript-eslint/parser',
 
@@ -25,7 +25,7 @@ module.exports = {
   plugins: [
     '@typescript-eslint',
     '@emotion',
-    'import',
+    'import-x',
     'react',
     'sentry',
     'simple-import-sort',
@@ -33,13 +33,13 @@ module.exports = {
   ],
 
   settings: {
-    'import/parsers': {
+    'import-x/parsers': {
       '@typescript-eslint/parser': ['.ts', '.tsx'],
     },
-    'import/resolver': {
-      typescript: {},
+    'import-x/resolver': {
+      typescript: true,
     },
-    'import/extensions': ['.js', '.jsx'],
+    'import-x/extensions': ['.js', '.jsx'],
   },
 
   /**
@@ -179,7 +179,7 @@ module.exports = {
      * Better import sorting
      */
     'sort-imports': 'off',
-    'import/order': 'off',
+    'import-x/order': 'off',
     'simple-import-sort/imports': [
       'error',
       {
