@@ -11,6 +11,9 @@
     "@biomejs/biome": "^1.9.3",
     "lerna": "3.20.2"
   },
+  "resolutions": {
+    "http-cache-semantics": ">=4.1.1"
+  },
   "repository": "getsentry/eslint-config-sentry",
   "volta": {
     "node": "20.10.0",
